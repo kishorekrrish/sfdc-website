@@ -2,8 +2,8 @@
 layout: post
 title: Why Every Developer should have their Own Blog 🔥🔥🔥
 date: '2019-10-12T22:25:00.000-07:00'
-image: assets/images/dev-blog/developer-blog.png
-author: Kishore
+image: assets/images/devblog/developer-blog.png
+author: kishore
 tags:
 - Blog
 ---
@@ -18,7 +18,7 @@ Are you a developer? Did you ever ask yourself why you should have a blog of you
 ## Motivates you to be Updated
 Being a developer is challenging and is an adventure because new and updated versions of the software get released nearly 2-3 times every year and you always need to be updated with the current version and know their limitations. Blogging helps you stay updated as you will be searching, researching and accumulating facts for your content to present to your audience and obviously you don't want to give outdated content.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/Motivate.png)
+![Wordpress about Bluehost](/assets/images/devblog/Motivate.png)
 
 ## To Market Yourself
 In a world, with millions of developers, it may be hard for an average developer to stand-out. If you notice every popular developer out there has a blog of their own, they share knowledge and showcase themselves. You know what? Employers love that, they might even approach you with job offers. By having a blog of your own you will be creating leads, creating leads is 2nd step in marketing.
