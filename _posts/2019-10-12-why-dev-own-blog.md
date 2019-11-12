@@ -23,32 +23,32 @@ Being a developer is challenging and is an adventure because new and updated ver
 ## To Market Yourself
 In a world, with millions of developers, it may be hard for an average developer to stand-out. If you notice every popular developer out there has a blog of their own, they share knowledge and showcase themselves. You know what? Employers love that, they might even approach you with job offers. By having a blog of your own you will be creating leads, creating leads is 2nd step in marketing.
 
-![Wordpress about Bluehost](/assets/images/devblog/market.png)
+![To Market Yourself](/assets/images/devblog/market.png)
 
-## Share Code snippets:
+## Share Code snippets
 Don't worry about the level of content that you share. If there is something that cannot be achieved conventionally and you have a workaround for that problem, share those code snippets and workarounds in your blog, Many developers around the world may not be knowing or having a workaround for the same problem for which you have the solution. They will be benefitted from your work and they will, in turn, become your potential audience.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/code.png)
+![Share Code snippets](/assets/images/devblog/code.png)
 
 ## Improve your communication skills
 Communication skills are very important for a good developer. Even though if you are a genius programmer and lag in communication skills, you will not satisfy your manager and mostly the end user. Consider that, your manager asked you to prepare some technical document and you mess the documentation with your immature communication skills which totally change the meaning of the requirement, you will be in total danger. Writing blogs improves your writing skills and even speaking and increases your confidence levels.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/communication.png)
+![Improve your communication skills](/assets/images/devblog/communication.png)
 
 ## Developer Community
 Be active in the community. Provide answers to the questions posed in the developer communities and build professional relationships. This is a great place to meet Iconic and like-minded people where you can share the common agenda of staying in touch.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/community.png)
+![Developer Community](/assets/images/devblog/community.png)
 
 ## Criticism
 Who didn't face criticism? Even great people faced criticism when they started. I faced a lot of criticism when I started my blog and started sharing it on social media sites. My friends were like you will only write a couple of posts and shut down. I didn't listen to them, I ignored them and stayed focused on content that I deliver. No content is bad content, it has some piece of information in it which will help at least a couple of people solve their problems. You will eventually improve.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/Criticism.png)
+![Criticism](/assets/images/devblog/Criticism.png)
 
 ## Build your targetted audience
 For any blog post you write there may be at least 10-20 visitors a day, Don't worry about that if your content has quality people will surely return to your blog and enjoy reading it. Publish your posts on social media sites and newsletters. List building is very important. When someone likes your post quickly grab his/her email and write a personal email ex: [I have seen that you have shown interest in example post in example.com website. example.com has many posts related to that, please feel free to check those out. You can get free content in your inbox by subscribing to our newsletter.  --Thanks].
 
-![Wordpress about Bluehost](/assets/images/dev-blog/Audience.png)
+![Build your targetted audience](/assets/images/devblog/Audience.png)
 
 I am a developer and I have a blog of my own, so can you. It's not as complicated as it seems. 
 
@@ -85,7 +85,7 @@ So, choose your suitable platform to write your first blog.
 ## How to Present Code Snippets
 As a developer, we will be sharing a lot of code snippets if the code is not formatted and highlighted properly users will have a hard time reading and understanding your code. There are many ways to format your code. As we are just starting with our blog we will reduce the customization and concentrate on the content. So the best way is to use Gists, they are formatted and highlighted ready for us, we just need to copy and paste the embedding Html in our blog. Go to gist.github.com, create code snippets and start sharing. See how easy it is to share the code which is formatted and highlighted.
 
-![Wordpress about Bluehost](/assets/images/dev-blog/Publish.png)
+![How to Present Code Snippets](/assets/images/devblog/Publish.png)
 
 ## Publish your Blog
 After you are done setting up your blog and writing some useful posts, start sharing them. Find user groups in social sites that match your niche and start sharing your content there, so that it reaches your targetted audience. If your targetted audience is from a particular country, register your blog with the country's local directories. For example, with the appropriate category selected.
