@@ -13,7 +13,7 @@ Are you a developer? Did you ever ask yourself why you should have a blog of you
 
 * Do not remove this line (it will not be displayed)
 {:toc}
-<script src="/assets/js/mytoc.js" async></script>
+<script src="assets/js/mytoc.js" async></script>
 
 ## Motivates you to be Updated
 Being a developer is challenging and is an adventure because new and updated versions of the software get released nearly 2-3 times every year and you always need to be updated with the current version and know their limitations. Blogging helps you stay updated as you will be searching, researching and accumulating facts for your content to present to your audience and obviously you don't want to give outdated content.
