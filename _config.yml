@@ -1,7 +1,7 @@
 # Site
 name: "Salesforce Lwc"
 title: "Salesforce Lwc"
-description: "SalesforceLWC is a platform where you can learn Salesforce Lightning web components. All about Salesforce CRM Software."
+description: "Platform to learn Lightning Web Components"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
