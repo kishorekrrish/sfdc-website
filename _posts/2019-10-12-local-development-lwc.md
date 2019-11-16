@@ -16,7 +16,7 @@ tags:
 ## Common Misconception
 Local development is relatively young theory in social sciences based on the identification and use of the resources and endogenous potentialities of a community, neighborhood, city, municipality or equivalent.
 
-\ [Wikipedia](https://en.wikipedia.org/wiki/Local_development){:rel="nofollow"}
+ --[Wikipedia](https://en.wikipedia.org/wiki/Local_development){:rel="nofollow"}
 
 If you think Local development as something as this you are totally in a misconception.
 
