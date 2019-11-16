@@ -5,7 +5,7 @@ date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/10/lookup-in-lwc.html
 description: Build Lightning Web Components Faster with Local Development. What's new is that from now we can not only develop the code locally but also test the code and experience without even pushing the code to Salesforce. As we develop code in VS Code we need to push the code each and every time it's changed back to our Salesforce crm Org to test the changes. In this process, you might even mess up the code which tends to break the existing functionality in the crm client relationship management software.
-image: assets/images/local-dev.png
+image: assets/images/lightning-out/local-dev.png
 author: kishore
 beforetoc: Have you ever heard of the Local Development Environment? As a Salesforce Developers, we used to develop our code in either Developer Org, Sandbox or Scratch Org using developer console. To develop newly introduced Lightning Web Components we need to use the VS Code or any code editor of our choice though Salesforce highly recommends VS Code. As we develop code in VS Code we need to push the code each and every time it's changed back to our Salesforce Org to test the changes. If we are not satisfied with the changes we have made we need to make necessary changes and push it again,  sometimes it really takes a lot of time for these changes to get deployed and tested. In this process, you might even mess up the code which tends to break the existing functionality. Hang on! Local development is her for the rescue.
 toc: true
