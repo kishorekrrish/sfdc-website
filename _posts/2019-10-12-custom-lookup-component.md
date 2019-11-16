@@ -9,7 +9,7 @@ tags:
 - Lightning
 permalink: /2019/10/lookup-in-lwc.html
 ---
-/2019/10/lookup-in-lwc.html
+
 Hi guys, today we are going to create a custom look-up component using Lightning Web Components. Lightning Web Components is a new framework created by Salesforce, a customer relationship management software. We can leverage modern and standard features. As LWC is new and not completely mature everything is not available out of the box, we need to build some things on our own to meet the requirements. 
 
 ## Create your first Lightning Web Component
