@@ -145,22 +145,22 @@ Creating a record from the lookup component is something that you have seen in s
                         </header>
                         <div  class={myPadding}  id="modal-content-id-2">
                             
-                                <div id="stencil" class={stencilClass}>
-                                    <c-stencil-lwc double={double} columns={cols} opacities={opacs}></c-stencil-lwc>
-                                </div>
-                        
-                                <div id="stencilReplacement"  class={stencilReplacement}>
-                                    <lightning-record-form class="recordForm"
-                                                          object-api-name={objName}
-                                                          record-type-id={recordTypeId}
-                                                          layout-type="Compact"
-                                                          columns="2"
-                                                          onload={handleLoad}
-                                                          density="comfy"
-                                                          onerror={handleError}
-                                                          onsuccess={handleSuccess}>
-         </lightning-record-form>       
-                                </div>                                                     
+                            <div id="stencil" class={stencilClass}>
+                                <c-stencil-lwc double={double} columns={cols} opacities={opacs}></c-stencil-lwc>
+                            </div>
+                    
+                            <div id="stencilReplacement"  class={stencilReplacement}>
+                                <lightning-record-form class="recordForm"
+                                                        object-api-name={objName}
+                                                        record-type-id={recordTypeId}
+                                                        layout-type="Compact"
+                                                        columns="2"
+                                                        onload={handleLoad}
+                                                        density="comfy"
+                                                        onerror={handleError}
+                                                        onsuccess={handleSuccess}>
+                                </lightning-record-form>       
+                            </div>                                                     
                         </div>
                         <footer class="slds-modal__footer">
                             <!--lightning-button class="slds-p-right_small" label="Save" onclick={handleSubmit} variant="brand"></lightning-button>
@@ -667,16 +667,4 @@ In this component, we are using a custom Stencil component to make our component
 
 Hope you enjoyed reading this article. You can ask your queries in the comments section below. I would be happy to answer. Please let me know if you find any mistakes.
 
-
-
-
-
-
-
-
-
-
-
-
-
-Icons made by itim2101 from www.flaticon.com
+<span style="font-size: x-small;">Icons made by&nbsp;</span><a href="https://www.flaticon.com/%3C?=_(%27authors/%27)?%3Eitim2101" style="font-size: x-small;" title="itim2101">itim2101</a><span style="font-size: x-small;">&nbsp;from&nbsp;</span><a href="https://www.flaticon.com/" style="font-size: x-small;" title="Flaticon">www.flaticon.com</a>
