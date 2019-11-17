@@ -2,7 +2,7 @@
 layout: post
 title: How to Create a Record in Salesforce Lightning Web Components using Apex
 date: '2019-10-12T22:25:00.000-07:00'
-categories: [ Lightning, Apex ]
+categories: [ Lightning Web Components, Apex ]
 permalink: /2019/04/how-to-create-record-in-lightning-web.html
 description: How to Create a Record in Salesforce Lightning Web Components using Apex. We are going to see how to create a record in Salesforce with LWC and Apex. In LWC documentation, there were two examples shown for creating a record in LWC. Using UiRecordApi, LDS. These two are the recommended ways. These two methods work fine with one record. But what if there is a requirement where you need to insert more than one record on button press. In these kind of situations this method may come handy
 image: assets/images/create-rec-lwc/create-rec-lwc.png

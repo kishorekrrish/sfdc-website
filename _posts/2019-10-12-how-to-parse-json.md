@@ -1,134 +1,109 @@
 ---
 layout: post
-title: How to Create a Record in Salesforce Lightning Web Components using Apex
+title: How to Parse JSON Response in Apex Salesforce
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Apex ]
 permalink: /2019/04/how-to-parse-json-response-in-apex.html
-description: How to Create a Record in Salesforce Lightning Web Components using Apex. We are going to see how to create a record in Salesforce with LWC and Apex. In LWC documentation, there were two examples shown for creating a record in LWC. Using UiRecordApi, LDS. These two are the recommended ways. These two methods work fine with one record. But what if there is a requirement where you need to insert more than one record on button press. In these kind of situations this method may come handy
-image: assets/images/create-rec-lwc/create-rec-lwc.png
+description: How to Parse JSON Response in Apex Salesforce. There are times when I was confused how to parse a JSON string so that I could get the required value. Now we will see how it can be done.
+image: assets/images/json-apex/json.png
 toc: true
 author: kishore
 tags:
 - Lightning
 ---
 
-We are going to see how to create a record in Salesforce with LWC and Apex. In LWC documentation, there were two examples shown for creating a record in LWC.
+There are times when I was confused about how to parse a JSON string so that I could get the required value. Now we will see how it can be done.
 
-- Using UiRecordApi
-- LDS
-
-These two are the recommended ways. These two methods work fine with one record.
-
-But what if there is a requirement where you need to insert more than one record on button press. In this kind of situations this method may come handy
-
-![How to Create a Record in Lightning Web Components using Apex](/assets/images/create-rec-lwc/create-rec-lwc-gif.gif)
-
-**CreateRecordDiff.html**
-```html
-<template>
-        <lightning-card title="Record with Field Integrity" icon-name="standard:account">
-                <div class="slds-p-around_x-small">
-                    <lightning-input label="Name" value={rec.Name} onchange={handleNameChange}></lightning-input>
-                    <lightning-input label="Industry" value={rec.Industry} onchange={handleIndChange}></lightning-input>
-                    <lightning-input type="Phone" label="Phone" value={rec.Phone} onchange={handlePhnChange}></lightning-input><br/>
-                    <lightning-button label="Save" onclick={handleClick}></lightning-button>
-                </div>
-            </lightning-card>
-</template>
-```
-<br>
-This **createRecordDiff.html** is a basic form with inputs  with change handlers and a button with onclick handler.
-
-**CreateRecordDiff.js**
-```js
-/* eslint-disable no-console */
-import { LightningElement, track} from 'lwc';
-import ACCOUNT_OBJECT from '@salesforce/schema/Account';
-import NAME_FIELD from '@salesforce/schema/Account.Name';
-import INDUSTRY_FIELD from '@salesforce/schema/Account.Industry';
-import PHONE_FIELD from '@salesforce/schema/Account.Phone';
-import createAccount from '@salesforce/apex/createAcc.createAccount';
-import { ShowToastEvent } from 'lightning/platformShowToastEvent';
-
-export default class CreateRecordWithFieldIntigrity extends LightningElement {
-
-    @track name = NAME_FIELD;
-    @track industry = INDUSTRY_FIELD;
-    @track phone = PHONE_FIELD;
-    rec = {
-        Name : this.name,
-        Industry : this.industry,
-        Phone : this.phone
+##Sample JSON
+```json
+{
+  "location_suggestions": [
+    {
+      "entity_type": "city",
+      "entity_id": 6,
+      "title": "Hyderabad",
+      "latitude": 17.366,
+      "longitude": 78.476,
+      "city_id": 6,
+      "city_name": "Hyderabad",
+      "country_id": 1,
+      "country_name": "India"
     }
-
-    handleNameChange(event) {
-        this.rec.Name = event.target.value;
-        console.log("name1", this.rec.Name);
-    }
-    
-    handleIndChange(event) {
-        this.rec.Industry = event.target.value;
-        console.log("Industry", this.rec.Industry);
-    }
-    
-    handlePhnChange(event) {
-        this.rec.Phone = event.target.value;
-        console.log("Phone", this.rec.Phone);
-    }
-
-    handleClick() {
-        createAccount({ acc : this.rec })
-            .then(result => {
-                this.message = result;
-                this.error = undefined;
-                if(this.message !== undefined) {
-                    this.rec.Name = '';
-                    this.rec.Industry = '';
-                    this.rec.Phone = '';
-                    this.dispatchEvent(
-                        new ShowToastEvent({
-                            title: 'Success',
-                            message: 'Account created',
-                            variant: 'success',
-                        }),
-                    );
-                }
-                
-                console.log(JSON.stringify(result));
-                console.log("result", this.message);
-            })
-            .catch(error => {
-                this.message = undefined;
-                this.error = error;
-                this.dispatchEvent(
-                    new ShowToastEvent({
-                        title: 'Error creating record',
-                        message: error.body.message,
-                        variant: 'error',
-                    }),
-                );
-                console.log("error", JSON.stringify(this.error));
-            });
-    }
+  ],
+  "status": "success",
+  "has_more": 0,
+  "has_total": 0
 }
 ```
 <br>
-On button click the entered info is passed as parameter to createAccount in createAcc.cls class.
+##This is easy method of all I tried
+Copy the above JSON String and generate Apex using this apex generator tool.
 
+[Json2Apex Generator](https://json2apex.herokuapp.com/){:rel="nofollow"}{:target="_blank"}
+
+![json to apex converter](/assets/images/json-apex/json2apex.png)
+
+paste the JSON string the space given, give a desirable name and click on the generate button. It generates two classes i.e both class and test class.
+
+//
+// Generated by JSON2Apex http://json2apex.herokuapp.com/
+//
 ```js
-public class createAcc {
+public class Test {
+
+ public List location_suggestions;
+ public String status;
+ public Integer has_more;
+ public Integer has_total;
+
+ public class Location_suggestions {
+  public String entity_type;
+  public Integer entity_id;
+  public String title;
+  public Double latitude;
+  public Double longitude;
+  public Integer city_id;
+  public String city_name;
+  public Integer country_id;
+  public String country_name;
+ }
+
  
-    @AuraEnabled
-    public static Account createAccount(Account acc) {
-        system.debug('acc'+acc);
-        insert acc;
-        return acc;
-    }
+ public static Test parse(String json) {
+  return (Test) System.JSON.deserialize(json, Test.class);
+ }
 }
 ```
 <br>
-In this way you can insert record into salesforce using LWC and Apex.
+In the main class where you are making the callout, pass the JSON response obtained to the parse method in the above generated ZomatoLocation.cls apex class as follows.
 
-Hope this post helped you gain some knowledge, If you like the please don't step back to like my page and leave your feedback, It will motivate me to make more posts.
+```js
+            reponse = res.getBody();
+            ZomatoLocation jsonApex = ZomatoLocation.parse(reponse);
+            
+            for(ZomatoLocation.Location_suggestions loc : jsonApex.Location_suggestions){
+                System.debug('location details'+loc);
+                locationList.add(loc);
+            }
+            system.debug('locationList'+locationList);
+```
+<br>
+and iterate through the list of type Location_suggestions (similar to a custom object in apex), add them to the list and use wherever needed.
+
+Hope this post helped you gain some knowledge, If you like the content please don't step back to like my page and leave your feedback, It will motivate me to make more posts.
+
 
 Subscribe to receive the latest updates directly in your inbox.
+
+
+
+
+
+
+
+
+
+
+
+
+
