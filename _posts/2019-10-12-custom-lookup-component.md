@@ -13,6 +13,9 @@ tags:
 
 Hi guys, today we are going to create a custom look-up component using Lightning Web Components. Lightning Web Components is a new framework created by Salesforce, a customer relationship management software. We can leverage modern and standard features. As LWC is new and not completely mature everything is not available out of the box, we need to build some things on our own to meet the requirements. 
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
 ## Create your first Lightning Web Component
 Look-up Component is one of that. As a Salesforce crm developer, we are well aware that there is no base component provided by salesforce either in AURA or LWC. So, in this article, you will understand how to create a Custom Lookup component that can be reused for any object in Salesforce crm.
 
