@@ -69,13 +69,13 @@ Wire Service is built on top of the Lightning Data Service. You can get the reco
 
 It takes the following parameters
 
-| Parameter | Description |
+|  Parameter  |  Description  |
 |-----|----|
-|  recordId  | The ID of the record to retrieve. | 
-|  fields  | Object-qualified field API names to retrieve. If a field isn’t accessible to the context user, it causes an error. If fields are specified, don't specify layout types. |
-|  layoutTypes  | Layouts defining the fields to retrieve. If specified, don't specify fields. |
+|  recordId  |  The ID of the record to retrieve. | 
+|  fields  |  Object-qualified field API names to retrieve. If a field isn’t accessible to the context user, it causes an error. If fields are specified, don't specify layout types. |
+|  layoutTypes  |  Layouts defining the fields to retrieve. If specified, don't specify fields. |
 |  modes  | Layout modes defining the fields to retrieve. |
-|  optionalFields  | Object-qualified field API names to retrieve. If an optional field isn’t accessible to the context user, it isn’t included in the response, but it doesn’t cause an error. |
+|  optionalFields  |  Object-qualified field API names to retrieve. If an optional field isn’t accessible to the context user, it isn’t included in the response, but it doesn’t cause an error. |
 <br>
 ![Get Server Data using Lightning Web Components](/assets/images/server-data/wire-service.png)
 
