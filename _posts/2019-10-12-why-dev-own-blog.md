@@ -4,6 +4,9 @@ title: Why Every Developer should have their Own Blog 🔥🔥🔥
 date: '2019-10-12T22:25:00.000-07:00'
 image: assets/images/devblog/developer-blog.png
 author: kishore
+featured: true
+hidden: true
+rating: 4.5
 tags:
 - Blog
 ---
