@@ -30,78 +30,32 @@ You might ask me that's what we are doing the whole time by using VS Code, What'
 Salesforce crm has made it easy for us with easy understanding error messages and error handling. Now you get even more sophisticated error messages which not only are descriptive but take us to the line where the error has occurred by providing a link, on clicking which directly takes us to that line in VS Code.
 
 
-
-
-
-Can I Access Real-Time Data
-
-Data
-
-
-
-Can I Access Real-Time CRM Data 
+## Can I Access Real-Time CRM Data 
 Whats use in everything without salesforce customer management data? Yes! we can access realtime crm data in the local development environment using LDS, UI API and Apex. As Salesforce crm developers we love data.
-
-
 
 After complete development and testing locally, you can deploy your bug-free code to Salesforce cloud.
 
+## Features in Future 
+- Flexipage Rendering
+- Mock data/ Live data Rendering
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-Features in Future 
-Flexipage Rendering
-
-Mock data/ Live data Rendering
-
-
-Salesforce CLI command for starting local server:
-
-
-
-sfdx force:lightning:lwc:start
-
-
+**Salesforce CLI command for starting local server**
+`sfdx force:lightning:lwc:start`
 
 As of now, Flexi-page rendering is not available but as a workaround to test event communication between components locally, you can create a container component and wrap the components for which you want to test in the container.
 
-
-
 Local development is only available for LWC as of now. I am so excited to test Local development for LWC and see how it works and increases my productivity and increase customer satisfaction.
-
-
 
 It is going to be released in beta real soon. So stay tuned and update your Salesforce CLI with new updates regularly.
 
-
-
 I really welcome a healthy technical conversation. Please start a conversation in the comments section below to know more about Local development for LWC. I am excited to share it with you. 
 
-
-
 I Dream in Salesforce ☁☁! and love to share them,
-
 Do you?
-
-
 
 Please let me know what you dream about Salesforce.
 
-
-
-Note: Please let me know if you find any mistakes.
-
+>Note: Please let me know if you find any mistakes.
 
 
 <span style="font-size: x-small;">Icons made by&nbsp;</span><a href="https://www.flaticon.com/%3C?=_(%27authors/%27)?%3Eitim2101" style="font-size: x-small;" title="itim2101">itim2101</a><span style="font-size: x-small;">&nbsp;from&nbsp;</span><a href="https://www.flaticon.com/" style="font-size: x-small;" title="Flaticon">www.flaticon.com</a>
