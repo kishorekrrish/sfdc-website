@@ -3,7 +3,7 @@ layout: post
 title: Get started with Salesforce lightning web components
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Apex ]
-permalink: /2019/05/custom-lookup-component-in-salesforce.html
+permalink: /2019/05/get-started-with-salesforce-lightning.html
 description: Lightning Web Components is a new programming model for building Lightning components in Salesforce. It leverages the web standards, it can co-exist and inter-operate with Aura programming model.
 image: assets/images/get-started-with-lwc.png
 toc: true
