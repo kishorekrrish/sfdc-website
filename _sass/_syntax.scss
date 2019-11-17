@@ -68,7 +68,7 @@
 td.rouge-code { width: 100%;}
 pre.lineno { color: #9999;}
 
-table {
+/*table {
 	padding: 0;
   }
 table tr {
@@ -104,9 +104,9 @@ table tr {
   table tr th :last-child, table tr td :last-child {
 	margin-bottom: 0;
   }
-  
+  */
   ul#markdown-toc {
-	  border: 1px solid;
+	  border: 1px solid #cccccc;
 	  display:inline-grid;
 	  padding-right: 5px;
   }
