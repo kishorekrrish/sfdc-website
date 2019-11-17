@@ -34,7 +34,7 @@ In Salesforce go to,
 
 Add the Site name and Url (In site Url add: https://developers.zomato.com) and click on save.
 
-![How to integrate Salesforce with Zomato lwc](/assets/images/integration-zomato/remoteSite.png)
+![How to integrate Salesforce with Zomato lwc](/assets/images/integration-zomato/remoteSite.jpg)
 
 In order to integrate with Zomato and access its data, we need to request zomato for an API key, which you can generate from here in less than a minute.
 
@@ -42,7 +42,7 @@ In order to integrate with Zomato and access its data, we need to request zomato
 
 Sign up into Zomato and generate API key by following the instructions.
 
-![How to integrate Salesforce with Zomato using lwc](/assets/images/integration-zomato/apikey.png)
+![How to integrate Salesforce with Zomato using lwc](/assets/images/integration-zomato/apikey.jpg)
 
 You will get the key similar to the above key in the image. Save it, as we are going to use that in the api call.
 
@@ -53,7 +53,7 @@ Zomato API documentation consists of all the services provided. In this session,
 
 [Zomato Documentation](https://developers.zomato.com/documentation){:rel="nofollow"}{:target="_blank"}
 
-![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/zomatoServices.png)
+![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/zomatoServices.jpg)
 
 ## Now comes the Code!!!
 First, we need to write Apex Classes for **Locations** and **Search** [GET] services provided by Zomato, which are selected in red in the above image. Please refer [How to convert JSON to Apex](/2019/04/how-to-parse-json-response-in-apex.html) to know more about the conversion of JSON to apex.
@@ -102,7 +102,7 @@ zomato.html
 
 When the user enters the location name in the input and clicks Select Location button, the entered location is sent as a parameter to getLocation(location name). The entered string is concatenated to the endpoint URL.
 
-![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/string-search.png)
+![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/string-search.jpg)
 
 After location is selected and entering Restaurant/Cuisine/Location (optional), on clicking the `search Restaurants` button, the obtained location entity Id and entity type are passed to the method searchRestaurants(entityId, entityType, location), list of restaurants are obtained from the API.
 
