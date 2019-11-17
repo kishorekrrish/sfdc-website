@@ -2,7 +2,6 @@
 layout: post
 title: How to Print Record Details in Lightning Experience
 date: '2019-10-12T22:25:00.000-07:00'
-last_modified_at: 2019-11-03 8:30:00 +0000
 categories: [ Lightning Web Components ]
 permalink: /2019/09/print-record-details.html
 description: How to Print Record Details in Lightning Experience
