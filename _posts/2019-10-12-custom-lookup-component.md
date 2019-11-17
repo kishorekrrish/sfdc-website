@@ -7,6 +7,9 @@ permalink: /2019/10/lookup-in-lwc.html
 description: Fully Featured Custom Look-Up Component using Salesforce Lightning Web Components. We will understand how to create a Custom Lookup component that can be reused for any object. As LWC is new and not completely mature everything is not available out of the box. Look-up Component is one of that. As a Salesforce CRM developer, we are well aware that there is no base component provided by salesforce either in AURA or LWC for look up.
 image: assets/images/custom-lookup.png
 author: kishore
+featured: true
+hidden: true
+rating: 4.5
 tags:
 - Lightning
 ---

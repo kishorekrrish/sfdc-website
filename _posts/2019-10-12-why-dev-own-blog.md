@@ -3,6 +3,8 @@ layout: post
 title: Why Every Developer should have their Own Blog 🔥🔥🔥
 date: '2019-10-12T22:25:00.000-07:00'
 image: assets/images/devblog/developer-blog.png
+permalink: /2019/09/why-developer-own-blog.html
+description: Why Every Developer should have their Own Blog. In a world, with millions of developers, it may be hard for an average developer to stand-out. If you ask me why a developer should have a blog, I would give a lot of reasons and obviously will be bored listening to them all. So I have stated some reasons that would interest you.
 author: kishore
 featured: true
 hidden: true
