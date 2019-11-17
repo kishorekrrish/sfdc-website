@@ -4,32 +4,33 @@ title: Mediumish Template for Jekyll
 permalink: /about
 comments: true
 ---
+<div dir="ltr" style="text-align: left;" trbidi="on">
+About <a href="https://www.salesforcelwc.in/" rel="nofollow">SalesforceLWC</a>
 
-<div class="row justify-content-between">
-<div class="col-md-8 pr-5">
-
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
-
-<p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
-<h4>Documentation</h4>
-
-<p>Please, read the docs <a href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/">here</a>.</p>
-
-<h4>Questions or bug reports?</h4>
-
-<p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="https://3.bp.blogspot.com/-88PW7AHtVAk/XMScVHbYQ-I/AAAAAAAAALw/q6KBY3mZ5vA4hUOGNODbAzcMX_z4u9BNwCLcBGAs/s1600/roundKishore.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="884" data-original-width="884" height="200" src="https://3.bp.blogspot.com/-88PW7AHtVAk/XMScVHbYQ-I/AAAAAAAAALw/q6KBY3mZ5vA4hUOGNODbAzcMX_z4u9BNwCLcBGAs/s200/roundKishore.png" width="200" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
 
 </div>
+<div class="separator" style="clear: both; text-align: center;">
+<span style="font-size: large;">Kishore Bandanadam</span></div>
 
-<div class="col-md-4">
-
-<div class="sticky-top sticky-top-80">
-<h5>Buy me a coffee</h5>
-
-<p>Thank you for your support! Your donation helps me to maintain and improve <a target="_blank" href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Mediumish <i class="fab fa-github"></i></a>.</p>
-
-<a target="_blank" href="https://www.wowthemes.net/donate/" class="btn btn-danger">Buy me a coffee</a> <a target="_blank" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/" class="btn btn-warning">Documentation</a>
-
+<div class="separator" style="clear: both; text-align: center;">
 </div>
+<div style="text-align: justify;">
+I am a Salesforce developer and a so-called blogger at SalesforceLwc. I love learning and sharing. SalesforceLWC aims to share relevant knowledge and scenarios for understanding Salesforce Lightning Web Components and AURA. I have also started learning the Python programming language.
+
+<h4>
+About Salesforce.com:</h4>
+Salesforce.com, Inc. (usually abbreviated as SF or SFDC for Salesforce dot com) is an American cloud-based software company headquartered in&nbsp;San Francisco, California. Though the bulk of its revenue comes from its customer relationship management (CRM) service, Salesforce also sells a complementary suite of enterprise applications focused on customer service, marketing automation, analytics, and application development.
+
+
+<span style="text-align: right;">-Salesforce </span><strike style="text-align: right;">Developer</strike><span style="text-align: right;"> Dreamer</span>
+
+Email me at <span style="color: #0b5394; font-size: large;">salesforcelwc@gmail.com</span></div>
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_tipjar_inline">
 </div>
+
 </div>
