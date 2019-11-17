@@ -6,6 +6,7 @@ categories: [ Lightning Web Components ]
 permalink: /2019/05/create-your-first-lightning-web.html
 description: Create your First Lightning Web Component In VS Code, press Ctrl + Shift + P in windows or Cmd + Shift + P in mac which opens command palette. Type this command sfdx Create Lightning Web Component and press enter. Enter file name (myFirstLwc) and press enter Select default directory and press enter Now give some time while LWC file is created.
 image: assets/images/first-lwc.png
+toc: true
 author: kishore
 tags:
 - Lightning

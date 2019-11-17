@@ -18,6 +18,9 @@ For the very maximum try to get data or create records using lightning base comp
 
 Using base components that uses LDS is one of the easiest ways to get/create records as it doesn't require Apex. Moreover, it respects CRUD access, handles sharing rules and field-level security which very much lacks in Lightning unless you implement it by your own. This means users who have CRUD access and FLS visibility only can see the records. It improves the performance and UI consistency and moreover, Salesforce highly recommends LDS before choosing other options. Records loaded in Lightning Data Service are cached and shared across components. Optimizes server calls by bulkifying and deduping requests.
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
 ![Get Server Data using Lightning Web Components](/assets/images/server-data/record-view-form.png)
 
 Let's get a record using base components that use LDS.

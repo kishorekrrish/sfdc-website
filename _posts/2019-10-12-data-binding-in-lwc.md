@@ -19,6 +19,9 @@ It is important to understand how javascript properties can be accessed in the t
 
 If a property is changed in template it doesn't automatically update in javascript. For the javascript property to update we need to create an onchange() event in the template, handle it and change the value of property in javascript.
 
+* Do not remove this line (it will not be displayed)
+{:toc}
+
 ![Data Binding in LWC](/assets/images/data-binding/data-binding.png)
 
 **binding.html**

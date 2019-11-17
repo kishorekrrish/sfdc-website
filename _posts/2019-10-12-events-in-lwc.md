@@ -6,6 +6,7 @@ categories: [ Lightning Web Components ]
 permalink: /2019/05/events-in-lightning-web-components.html
 description: Events in Lightning Web Components. We need custom events to communicate up the containment hierarchy. The child component can tell its parent that something has happened or changed, without events that cannot be done.
 image: assets/images/events-in-lwc.png
+toc: true
 author: kishore
 tags:
 - Lightning
