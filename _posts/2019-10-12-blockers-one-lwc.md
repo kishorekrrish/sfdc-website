@@ -3,8 +3,7 @@ layout: post
 title: Blockers You will come across while dealing with Lists in LWC
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Lightning ]
-description: Blockers You will come across while dealing with Lists in LWC
-Previously we have seen how data binding acts as a blocker and how to overcome that in LWC. In this article, we will understand how data binding acts as a blocker when dealing with lists in LWC.
+description: Blockers You will come across while dealing with Lists in LWC Previously we have seen how data binding acts as a blocker and how to overcome that in LWC. In this article, we will understand how data binding acts as a blocker when dealing with lists in LWC.
 permalink: /2019/09/blockers-in-lwc-list.html
 image: assets/images/Blockers1-lwc.png
 author: kishore
