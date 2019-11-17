@@ -119,7 +119,6 @@ I hope you have understood the difference just by looking at the sample code. If
 In connected callback which is equivalent to init handler in the aura, we get the list of accounts,  As you know LWC has only one-way data binding, we need to map data changes in the input elements to the exact record in the list to which changes are made, for that we use Id as the unique key and use find() method to find the record based on Id and map the changed value may it be name or any other field as shown above.
 
 If you have noticed this line in the code
-
      `this.records = [...this.records]`
 
 basically, what this means is we are cloning "records" and assigning the value to itself which triggers @track decorator to sense data change and re-render.
