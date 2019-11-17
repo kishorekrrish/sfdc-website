@@ -108,7 +108,3 @@ Here instead of using property directly, we are using javascript getter function
 If you enjoyed this article, share it with your group!
 
 Subscribe to get the latest updates directly in your inbox.
-
-
-
-<span style="font-size: x-small;">Icons made by&nbsp;</span><a href="https://www.flaticon.com/%3C?=_(%27authors/%27)?%3Eitim2101" style="font-size: x-small;" title="itim2101">itim2101</a><span style="font-size: x-small;">&nbsp;from&nbsp;</span><a href="https://www.flaticon.com/" style="font-size: x-small;" title="Flaticon">www.flaticon.com</a>
