@@ -166,7 +166,7 @@ Next, create a lightning component to the display record and its related records
 </aura:component>
 ```
 <br>
-** Controller:**
+**Controller:**
 ```js
 ({
  doInit : function(component, event, helper) {
@@ -301,7 +301,6 @@ Add the button to your page layout and make necessary changes in the App above a
 ![print-preview](/assets/images/print/Print-preview.png)
 
 Here is the windows browser print preview in portrait mode.
-
 
 
 I hope you like this information. If you have any thoughts please write them in the comments section below.
