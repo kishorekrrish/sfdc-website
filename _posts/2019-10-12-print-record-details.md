@@ -301,9 +301,6 @@ Add the button to your page layout and make necessary changes in the App above a
 ![print-preview](/assets/images/print/Print-preview.png)
 
 Here is the windows browser print preview in portrait mode.
-<div class="canva-embed" data-design-id="DADlh9i9RaY" data-height-ratio="1.4143" style="background: rgba(0 , 0 , 0 , 0.03); border-radius: 8px; padding: 141.4286% 5px 5px 5px;">
-</div>
-<script async="" src="https://sdk.canva.com/v1/embed.js"></script>
 
 I hope you like this information. If you have any thoughts please write them in the comments section below.
 
