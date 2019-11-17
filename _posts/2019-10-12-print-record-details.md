@@ -8,11 +8,6 @@ description: How to Print Record Details in Lightning Experience
 Have you ever wondered, or did your client asked you to create a button, which opens the record details in printable form. Then you are in the right place. We will create a component that could actually print the record detail page and even its related records if necessary. We will try two approaches, of which one just includes configuration and other include code.
 image: assets/images/print/print-lightning.png
 author: kishore
-beforetoc: Have you ever wondered, or did your client asked you to create a button, which opens the record details in printable form. Then you are in the right place. We will create a component that could actually print the record detail page and even its related records if necessary.
-We will try two approaches, of which one just includes configuration and other include code.
-As a best practice first we will go with configuration. Because salesforce always suggests us to use out-of-the-box functionality first, and only use code if that is not possible using configuration.
-
-toc: true
 tags:
 - Lightning
 ---
@@ -22,6 +17,9 @@ Have you ever wondered, or did your client asked you to create a button, which o
 We will try two approaches, of which one just includes configuration and other include code.
 
 As a best practice first we will go with configuration. Because salesforce always suggests us to use out-of-the-box functionality first, and only use code if that is not possible using configuration.
+
+* Do not remove this line (it will not be displayed)
+{:toc}
 
 ## Method 1 (Configuration)
 1. Select an object for which you want to enable a printable view ("Printable view" 😀 that's what Salesforce calls it). I am using the Account object for the demonstration.
@@ -46,7 +44,7 @@ It should look something like this displaying record details along with related 
 2. To configure fieldsets, go to setup, select your object, click on fieldsets and create a new fieldset and copy the fieldset name, which we are going to use later.
 
 create an apex class called FieldSet with two methods in it as shown below.
-```java
+```js
 public class FieldSet {
     
     @AuraEnabled
@@ -121,8 +119,6 @@ Next, create a lightning component to the display record and its related records
     <aura:attribute name="iconName" type="String"/>
     <aura:attribute name="relatedList" type="Object[]"/>
 
-
-    
     <aura:if isTrue="{!!v.isRelatedList}">
         <div class="slds-p-left_large">
             <lightning:avatar size="large"   
@@ -193,8 +189,7 @@ Next, create a lightning component to the display record and its related records
         }
         else {
             helper.doInit(component, event, helper);
-        }
-               
+        }       
  }
 })
 ```
