@@ -18,7 +18,7 @@ In Salesforce we often deal with a list of records, may it be related list and w
 
 Let's take a simple example to understand this,
 
-##AURA
+## AURA
 ```html
 <aura:attribute name="records" type="Object[]"/>
 
@@ -62,7 +62,7 @@ save : function(component, event, helper) {
 <br>
 In the above example, we are just declaring an attribute called records of type array of objects and using it in our mark-up and everything is handled by AURA, we don't need to worry about indexing and stuff. In javascript, we directly retrieve the changed records by one single line "component.get()" and we get all changed records with changes reflecting in the exact indices rather than mapping the changes manually to the particular indexed record. This doesn't work in the case of  LWC.
 
-##LWC
+## LWC
 ```html
 <template for:each = {records} for:item = "record" for:index="indexVar">
  <tr key={record.Id} class="slds-hint-parent">
