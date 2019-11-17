@@ -25,7 +25,7 @@ Local Development simply means hosting the files in our local computer rather th
 
 You might ask me that's what we are doing the whole time by using VS Code, What's new in that. What's new is that from now we can not only develop the code locally but also test the code and experience without even pushing the code to Salesforce crm software, by which we reduce the risk of breaking the existing functionality in customer crm software and also increasing our productivity as we don't have to wait for the code to be pushed to Salesforce. We can see the results instantly.
 
-![Error Messages](/assets/images/lightning-out/error-messages.png)
+![Error-Messages](/assets/images/lightning-out/error-messages.png)
 
 ## What if there are Errors in your Code 
 Salesforce crm has made it easy for us with easy understanding error messages and error handling. Now you get even more sophisticated error messages which not only are descriptive but take us to the line where the error has occurred by providing a link, on clicking which directly takes us to that line in VS Code.
@@ -59,6 +59,3 @@ Do you?
 Please let me know what you dream about Salesforce.
 
 >Note: Please let me know if you find any mistakes.
-
-
-<span style="font-size: x-small;">Icons made by&nbsp;</span><a href="https://www.flaticon.com/%3C?=_(%27authors/%27)?%3Eitim2101" style="font-size: x-small;" title="itim2101">itim2101</a><span style="font-size: x-small;">&nbsp;from&nbsp;</span><a href="https://www.flaticon.com/" style="font-size: x-small;" title="Flaticon">www.flaticon.com</a>
