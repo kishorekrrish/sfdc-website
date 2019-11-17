@@ -2,7 +2,6 @@
 layout: page
 title: Mediumish Template for Jekyll
 permalink: /about
-comments: true
 ---
 <div dir="ltr" style="text-align: left;" trbidi="on">
 About <a href="https://www.salesforcelwc.in/" rel="nofollow">SalesforceLWC</a>
