@@ -10,9 +10,7 @@ Have you ever wondered, or did your client asked you to create a button, which o
 image: assets/images/print/print-lightning.png
 author: kishore
 beforetoc: Have you ever wondered, or did your client asked you to create a button, which opens the record details in printable form. Then you are in the right place. We will create a component that could actually print the record detail page and even its related records if necessary.
-
 We will try two approaches, of which one just includes configuration and other include code.
-
 As a best practice first we will go with configuration. Because salesforce always suggests us to use out-of-the-box functionality first, and only use code if that is not possible using configuration.
 
 toc: true
