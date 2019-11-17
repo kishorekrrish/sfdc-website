@@ -487,7 +487,7 @@ lightning-radio-group .slds-radio_faux {
 ```
 <br>
 **LookupController.apxc**
-```java
+```js
 public class LookupController {
 
     @AuraEnabled(cacheable=true)
