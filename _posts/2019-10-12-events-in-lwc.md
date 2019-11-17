@@ -100,9 +100,9 @@ onselected(event) {
 <br>
 Try implementing this. By any means, if you couldn't implement, just drop a comment.
 
-Find full code here: [Salesforce Lightning Web components | Editable List](https://www.salesforcelwc.in/2019/04/blog-post.html){:target="_blank"}
+Find full code here: [Salesforce Lightning Web components, Editable List](https://www.salesforcelwc.in/2019/04/blog-post.html){:target="_blank"}
 
-Reference: Create and Dispatch Events LWC Documentation
+Reference: [Create and Dispatch Events LWC Documentation](https://developer.salesforce.com/docs/component-library/documentation/lwc/lwc.events_create_dispatch){:rel="nofollow"}
 
 If you enjoyed this article, share it with your group!
 
