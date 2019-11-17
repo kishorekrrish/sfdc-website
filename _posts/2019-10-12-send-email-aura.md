@@ -17,7 +17,7 @@ Create a custom email wizard which allows the users to notify respective contact
 
 In this post we are going to see a custom component which can send emails with attachments. We will use Apex SingleEmailMessage. When we pass a list of contact or user record Id's, it automatically fetches emails for those record, making our life easy.
 
-![Create a Custom Component to Send an Email in Salesforce Lightning](/assets/images/send-email/notify-gif.png)
+![Create a Custom Component to Send an Email in Salesforce Lightning](/assets/images/send-email/notify-gif.gif)
 
 **Controllers:**
 - NotifyController.apxc
