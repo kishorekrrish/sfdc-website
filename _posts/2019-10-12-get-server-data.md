@@ -76,7 +76,7 @@ It takes the following parameters
 |  layoutTypes  |  Layouts defining the fields to retrieve. If specified, don't specify fields. |
 |  modes  | Layout modes defining the fields to retrieve. |
 |  optionalFields  |  Object-qualified field API names to retrieve. If an optional field isn’t accessible to the context user, it isn’t included in the response, but it doesn’t cause an error. |
-<br>
+
 ![Get Server Data using Lightning Web Components](/assets/images/server-data/wire-service.png)
 
 **usingWireService.html**
