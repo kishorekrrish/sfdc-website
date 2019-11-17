@@ -8,7 +8,7 @@ baseurl: /
 google_analytics: 'UA-46278016-1'
 disqus: 'salesforcelwc'
 mailchimp-list: 'https://salesforcelwc.us20.list-manage.com/subscribe/post?u=310725db7e557758a03138e92&amp;id=108e4f0200'
-include: ['_pages']
+include: ["_pages"]
 permalink: /:title/
 
 # Authors
