@@ -24,20 +24,20 @@ Until recent years, what web standards offered was only limited to
 - Events,
 - Core language (ECMAScript 5)
 
-Get started with Salesforce lightning web components
+![Get started with Salesforce lightning web components](/assets/images/get-started/getstarted1.png)
 
 To over come limitations of standard web stack, frameworks came into picture, as they could offer more than standards like Data Services, UI Components, Component Models, Rendering Optimization, Modules, Language Extensions.
 
 Frameworks like React, Angular, and the Lightning Component Framework are all JavaScript frameworks, but they provide such a high level of abstraction that they feel like different languages.
 
 ## 2019 web stack
-Get started with Salesforce lightning web components
+![Get started with Salesforce lightning web components](/assets/images/get-started/getstarted2.png)
 
 With this update many of the many features which were only available through frameworks now got standardized. The standardization of the core stack is incredibly exciting and opens the door to a new breed of frameworks: frameworks whose major task is no longer to fill in the gaps in the core stack, but to provide a thin layer of specialized services on top of a standard stack that is now suitable for large scale app development.
 
 ## Coming to Lightning Web Components
 
-Get started with Salesforce lightning web components
+![Get started with Salesforce lightning web components](/assets/images/get-started/getstarted3.png)
 
 Lightning Web Components is the Salesforce implementation of lightweight framework built on web standards. It makes use of custom elements, templates, shadow DOM, decorators, modules, and other new language constructs available in ECMAScript 7.
 
