@@ -98,8 +98,11 @@ Here instead of using property directly, we are using javascript getter function
 
 ## Also Read:
 [Get started with Salesforce lightning web components](/2019/05/get-started-with-salesforce-lightning.html)
+
 [Set up your Dev Environment for Building Salesforce Lightning Web Components](/2019/05/set-up-your-dev-environment-for.html)
+
 [Create your First Lightning Web Component](/2019/05/create-your-first-lightning-web.html)
+
 [Salesforce Lightning Web components | Editable List](/2019/04/blog-post.html)
 
 If you enjoyed this article, share it with your group!
