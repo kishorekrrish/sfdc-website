@@ -40,6 +40,7 @@ After complete development and testing locally, you can deploy your bug-free cod
 - Mock data/ Live data Rendering
 
 **Salesforce CLI command for starting local server**
+
 `sfdx force:lightning:lwc:start`
 
 As of now, Flexi-page rendering is not available but as a workaround to test event communication between components locally, you can create a container component and wrap the components for which you want to test in the container.
