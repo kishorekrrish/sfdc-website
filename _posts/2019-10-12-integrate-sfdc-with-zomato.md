@@ -34,7 +34,7 @@ In Salesforce go to,
 
 Add the Site name and Url (In site Url add: https://developers.zomato.com) and click on save.
 
-![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/remoteSite.png)
+![How to integrate Salesforce with Zomato lwc](/assets/images/integration-zomato/remoteSite.png)
 
 In order to integrate with Zomato and access its data, we need to request zomato for an API key, which you can generate from here in less than a minute.
 
@@ -42,7 +42,7 @@ In order to integrate with Zomato and access its data, we need to request zomato
 
 Sign up into Zomato and generate API key by following the instructions.
 
-![How to integrate Salesforce with Zomato using Lightning Web Components](/assets/images/integration-zomato/apikey.png)
+![How to integrate Salesforce with Zomato using lwc](/assets/images/integration-zomato/apikey.png)
 
 You will get the key similar to the above key in the image. Save it, as we are going to use that in the api call.
 
