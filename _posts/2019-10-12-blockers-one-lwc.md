@@ -6,7 +6,7 @@ categories: [ Lightning Web Components, Lightning ]
 permalink: /2019/09/blockers-in-lwc-list.html
 description: Blockers You will come across while dealing with Lists in LWC
 Previously we have seen how data binding acts as a blocker and how to overcome that in LWC. In this article, we will understand how data binding acts as a blocker when dealing with lists in LWC.
-In Salesforce we often deal with a list of records, may it be related list and whatnot. We will compare and understand data binding in the case of lists in AURA and LWC.
+In Salesforce we often deal with a list of records.
 image: assets/images/Blockers1-lwc.png
 author: kishore
 tags:
@@ -81,7 +81,6 @@ In the above example, we are just declaring an attribute called records of type 
 ```js
 import { LightningElement, track } from 'lwc';
 import getAccounts from '@salesforce/apex/dynamicRowsController.getAccounts';
-
 
 export default class TestBinding extends LightningElement {
     
