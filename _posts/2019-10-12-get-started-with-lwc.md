@@ -52,7 +52,7 @@ Lightning Web Components also provides Salesforce services which includes,
 __Isn't this Important??__
 
 ## Also Read:
-- [Introducing Lightning Web Components](/blogs/2018/12/introducing-lightning-web-components.html)
+- [Introducing Lightning Web Components](/blogs/2018/12/introducing-lightning-web-components.html){:rel="nofollow"}{:target="_blank"}
 - [Publish–Subscribe Pattern in Lightning Web Components (pubsub)](/2019/04/publishsubscribe-pattern-in-lightning.html)
 - [How to integrate Salesforce with Zomato using Lightning Web Components](/2019/04/how-to-integrate-salesforce-with-zomato.html)
 - [Salesforce Lightning Web components, Editable List](/2019/04/blog-post.html)
