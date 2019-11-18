@@ -27,7 +27,7 @@ Salesforce.com, Inc. (usually abbreviated as SF or SFDC for Salesforce dot com) 
 <span style="text-align: right;">-Salesforce </span><strike style="text-align: right;">Developer</strike><span style="text-align: right;"> Dreamer</span>
 
 Email me at <span style="color: #0b5394; font-size: large;">salesforcelwc@gmail.com</span></div>
-
+<br>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_tipjar_inline">
 </div>
