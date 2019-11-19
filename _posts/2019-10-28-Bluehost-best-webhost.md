@@ -3,7 +3,7 @@ layout: post
 title:  "Bluehost - One of the best web hosting company"
 author: Kishore
 categories: [ Webhosting, Blog ]
-image: assets/images/bluehost.png
+image: assets/images/bluehost/bluehost.png
 last_modified_at:   2019-11-03 8:30:00 +0000
 ---
 
@@ -45,11 +45,13 @@ Bluehost provides
 6. Doesn't have upgraded software version as recommended by WordPress
 
 ## What does Internet has to say about Bluehost?
-![Wordpress about Bluehost](/assets/images/Wordpress-Bluehost.png)
+![Wordpress about Bluehost](/assets/images/bluehost/Wordpress-Bluehost.png)
 
-![Bitcatcha about Bluehost](/assets/images/Bitcatcha-Bluehost.png)
+![Bitcatcha about Bluehost](/assets/images/bluehost/Bitcatcha-Bluehost.png)
 
+<div style="width:300px; height:300px">
 <a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="/assets/images/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
+</div>
 
 ## What Bluehost has to Offer
 
@@ -83,42 +85,42 @@ Before you choose the hosting service, go through the breakdown below which help
 ### Shared Hosting
 Shared Hosting is one of the most common and affordable forms of website hosting. You will be sharing resources with multiple users using a secured server to host your website online. Bluehost provides affordable shared hosting services so you can find the perfect shared hosting package for your website needs. If you are a beginner and if you don't want to spend money on dedicated or virtual hosting, Shared hosting is the best option for you to go with.
 
-![Bluehost shared hosting pricing](/assets/images/shared-hosting-bluehost.png)
+![Bluehost shared hosting pricing](/assets/images/bluehost/shared-hosting-bluehost.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
 ### VPS Hosting
 Virtual Private Server hosting, (VPS hosting), is a website hosting service that provides you resources such as RAM and CPU dedicated to your hosting account, unlike shared hosting. A virtual private server is a virtual machine sold as a service. This is achieved by virtualizing a Dedicated server and dividing the resources among the users on that particular server. This means that you get to use your allocated resources (RAM and CPU) regardless of other users on the server. Where in shared hosting you are not guaranteed to get to use all the allocated resources promised.
 
-![Bluehost vps hosting pricing](/assets/images/vps-bluehost-pricing.png)
+![Bluehost vps hosting pricing](/assets/images/bluehost/vps-bluehost-pricing.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
 ### Dedicated Hosting
 Dedicated hosting is a website hosting service that provides the highest level of resource allocation, privacy, and control. Dedicated servers are completely isolated from one another, so you get full access to configure your server however you want without affecting another user or being affected by the actions of other users.
 
-![Bluehost dedicated hosting pricing](/assets/images/dedicated-bluehost-pricing.png)
+![Bluehost dedicated hosting pricing](/assets/images/bluehost/dedicated-bluehost-pricing.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
 ### Wordpress Hosting
 WordPress is the No.1 website creation and managing software. More than 30% of od the internet worldwide is powered by Wordpress. 30% worldwide is not a small number, it has a huge user base. WordPress provides everything you need to create an awesome and powerful website. Wordpress is an open-source. This open-source approach has made WordPress the website creation and management platform of choice for beginner and skilled users all over the world. Wordpress has a huge amount of plugins, themes, and add-ons available for your needs and ease.
 
-![Bluehost dedicated hosting pricing](/assets/images/wordpress-bluehost-plans.png)
+![Bluehost dedicated hosting pricing](/assets/images/bluehost/wordpress-bluehost-plans.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
 ### Managed Wordpress Hosting
 As the name suggests managed WordPress hosting means all technical aspects involved in building a complete WordPress site is taken care by the hosting company, in this case, Bluehost. We can say it as a complete package with features like Marketing Center with SEO, Social media and performance analysis, Detailed Analysis of web traffic, Improved Site Speed by using SSDs, Automatic updates.
 
-![Bluehost dedicated hosting pricing](/assets/images/wp-managed-bluehost-plans.png)
+![Bluehost dedicated hosting pricing](/assets/images/bluehost/wp-managed-bluehost-plans.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
 ### eCommerce (WooCommerce)
 WooCommerce is a WordPress plugin for selling products or services online. Without considering if your products are digital or physical, WooCommerce makes it easy enough to build an online store that is customized according to your business needs. WooCommerce also makes it easy to manage your inventory, receive secure payments, shipping, and automatic tax calculation and application if needed.
 
-![Bluehost dedicated hosting pricing](/assets/images/ecommerce-bluehost-plans.png)
+![Bluehost dedicated hosting pricing](/assets/images/bluehost/ecommerce-bluehost-plans.png)
 
 <a href="https://www.bluehost.com/track/salesforcelwc/" target="_blank" rel="nofollow" class="btn btn-primary">Check Prices</a>
 
@@ -143,7 +145,7 @@ Bluehost team of professionals helps you to migrate your existing websites (up t
 Everything starts with a Domain Name. Search for your domain name here and build an awesome website.
 
 ## Specifications
-![Bluehost shared hosting pricing](/assets/images/Bluehost-specifications.png)
+![Bluehost shared hosting pricing](/assets/images/bluehost/Bluehost-specifications.png)
 
 ## Everything Starts with a Domain Name
 Choose the domain name the best suits your niche/company. Check if your preferred domain name is available below.
