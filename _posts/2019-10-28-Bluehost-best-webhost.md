@@ -2,7 +2,7 @@
 layout: post
 title:  "Bluehost - One of the best web hosting company"
 author: Kishore
-categories: [ Webhosting, jekyll ]
+categories: [ Webhosting, Blog ]
 image: assets/images/bluehost.png
 last_modified_at:   2019-11-03 8:30:00 +0000
 ---
@@ -49,6 +49,7 @@ Bluehost provides
 
 ![Bitcatcha about Bluehost](/assets/images/Bitcatcha-Bluehost.png)
 
+<a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="/assets/images/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
 
 ## What Bluehost has to Offer
 

@@ -20,4 +20,11 @@ permalink: "/tags.html"
 {% assign pages_list = nil %}
 {% assign group = nil %}
 {% endfor %}
+
+<!-- Custom Adsense Ads added by kishore-->
+{% if site.adsense == "enabled" %}
+	{% include adsense-in-categories-bottom.html %}
+{% endif %}
+<!-- End Adsense -->
+
 </div>
