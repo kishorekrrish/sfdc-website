@@ -49,11 +49,11 @@ Bluehost provides
 ![Wordpress about Bluehost](/assets/images/bluehost/Wordpress-Bluehost.png)
 
 ![Bitcatcha about Bluehost](/assets/images/bluehost/Bitcatcha-Bluehost.png)
-
+<br>
 <div style="width:300px; height:300px">
-<a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="/assets/images/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
+<a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="/assets/images/bluehost/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
 </div>
-
+<br>
 ## What Bluehost has to Offer
 
 |     |  Hosting Services |
