@@ -56,25 +56,23 @@ Bluehost provides
 
 ## What Bluehost has to Offer
 
-|     |  Hosting Services |
-|-----|----|
-|  1  |  Shared Hosting | 
-|  2  |  VPS Hosting |
-|  3  |  Dedicated Hosting |
-|  4  |  Wordpress Hosting |
-|  5  |  Managed WP Hosting (with WP Pro) |
-|  6  |  eCommerce (WooCommerce)|
+**Hosting Services**
 
-  
+1. Shared Hosting
+2. VPS Hosting
+3. Dedicated Hosting
+4. Wordpress Hosting
+5. Managed WP Hosting (with WP Pro) 
+6. eCommerce (WooCommerce)
 
 and professional services include,
 
-|     |  Professional Services |
-|-----|----|
-|  1  |  Full-Service Website | 
-|  2  |  SEO Services |
-|  3  |  Pay-Per-Click Services |
-|  4  |  Website Migrator |
+**Professional Services**
+
+1. Full-Service Website
+2. SEO Services 
+3. Pay-Per-Click Services
+4. Website Migrator
 
 [Bluehost](https://www.bluehost.com/track/salesforcelwc/){:rel="nofollow"} also provides domain management services.
 
