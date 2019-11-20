@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How to integrate Salesforce with Zomato using Lightning Web Components
+title: Salesforce Lightning Web components | Editable List
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Apex ]
 permalink: /2019/04/blog-post.html
