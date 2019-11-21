@@ -12,7 +12,7 @@ tags:
 - Lightning
 ---
 
-##SCENARIO
+## SCENARIO
 Create a custom email wizard which allows the users to notify respective contacts and other users about some event in contact record detail page. Show toast messages on success and failure of sending an email.
 
 In this post we are going to see a custom component which can send emails with attachments. We will use Apex SingleEmailMessage. When we pass a list of contact or user record Id's, it automatically fetches emails for those record, making our life easy.
