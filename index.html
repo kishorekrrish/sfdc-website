@@ -24,6 +24,12 @@ title: Home
     {% endfor %}
 
     </div>
+
+    <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+    {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
+    {% endif %}
+    <!-- End Adsense -->
 </section>
 
 {% endif %}
