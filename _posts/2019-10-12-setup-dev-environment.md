@@ -4,7 +4,7 @@ title: Set up your Dev Environment for Building Salesforce Lightning Web Compone
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/05/create-your-first-lightning-web.html
-description: Set up your Dev Environment for Building Salesforce Lightning Web Components. You can’t develop Lightning web components in the Developer Console. So, to develop Lightning web components, we have to use any code editor. I use VS code. To deploy and retrieve source code from your Org you need to use Salesforce CLI.
+description: To develop Lightning web components, we have to use any code editor which integrates with Salesforce CLI, Developer console is not yet supported.
 image: assets/images/dev-environment.png
 toc: true
 author: kishore

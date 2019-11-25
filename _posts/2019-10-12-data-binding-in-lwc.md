@@ -4,7 +4,7 @@ title: Data Binding in LWC
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/05/data-binding-in-lwc.html
-description: Data Binding in LWC | How to Bind Properties in Template with Properties in Java Script It is important to understand how java script properties can be accessed in template. To access any java script property in template surround that property with curly braces.@track property = '';in javascript {property} in template with no spacesIf a property is changed in template it doesn't automatically update in java script. For the java script property to update we need to create a onchange() event in template and handle it and change the value of property in java script.
+description: To Bind Properties in Template, with Properties in Java Script it is important to understand how java script properties can be accessed in template. Any Javascript property can be accessed in Html using curly braces {}.
 image: assets/images/data-binding/data-binding-head.png
 author: kishore
 tags:

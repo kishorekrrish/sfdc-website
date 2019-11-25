@@ -4,7 +4,7 @@ title: Publish–Subscribe Pattern in Lightning Web Components (pubsub)
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/04/publishsubscribe-pattern-in-lightning.html
-description: Publish–Subscribe Pattern in Lightning Web Components (pubsub). How do components communicate with each other. In a publish-subscribe pattern, one component publishes an event while the other components subscribe to receive and handle the event. Every component that subscribes to the event receives the event. Lets say, you have two components to a Lightning page in App Builder, then use the pubsub module to send events between them. Pubsub is not given by default, you have to add it to by yourself. You can get the file from here.
+description: How do components communicate with each other. In a publish-subscribe pattern, one component publishes an event while the other components subscribe to receive and handle the event. 
 image: assets/images/pub-sub.png
 toc: true
 author: kishore

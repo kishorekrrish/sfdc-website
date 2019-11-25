@@ -4,7 +4,7 @@ title: Build Lightning Web Components Faster with Local Development🔥🔥
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/09/local-development-lwc.html
-description: Build Lightning Web Components Faster with Local Development. What's new is that from now we can not only develop the code locally but also test the code and experience without even pushing the code to Salesforce. As we develop code in VS Code we need to push the code each and every time it's changed back to our Salesforce crm Org to test the changes. In this process, you might even mess up the code which tends to break the existing functionality in the crm client relationship management software.
+description: From now we can not only develop the code but also see the changes live as we code natively in the local server and experience the changes without even pushing the code to Salesforce.
 image: assets/images/lightning-out/local-dev.png
 author: kishore
 toc: true

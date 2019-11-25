@@ -4,7 +4,7 @@ title: Create a Custom Component to Send an Email in Salesforce Lightning
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning, Apex ]
 permalink: /2019/04/create-custom-component-to-send-email.html
-description: Create a Custom Component to Send an Email in Salesforce Lightning. In this post we are going to see a custom component which can send emails with attachments. We will use Apex SingleEmailMessage. When we pass a list of contact or user record Id's, it automatically fetches emails for those record, making our life easy.
+description: In this post we are going to see a custom component which can send emails with attachments. We will use Apex SingleEmailMessage. When we pass a list of contact or user record Id's, it automatically fetches emails for those record, making our life easy.
 image: assets/images/send-email/send-email.png
 toc: true
 author: kishore

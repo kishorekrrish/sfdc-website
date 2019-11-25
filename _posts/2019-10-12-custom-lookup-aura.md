@@ -4,7 +4,7 @@ title: Custom Lookup Component in Salesforce Lightning - Updated
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning, Apex ]
 permalink: /2019/05/custom-lookup-component-in-salesforce.html
-description: Custom Lookup Component in Salesforce Lightning. When using look up in salesforce lightning components, Salesforce doesn't provide any specific input tag that renders Look-up field UI.<lightning:inputField /> tag which can render look up automatically, can only be used in <lightning:recordEditForm/> <lightning:recordForm /> <lightning:recordViewForm/> So for this reason we have build a custom Look-up component. The look-up component we are going to build is generic so that it can be re-used, Not object specific Supports multi select and single select Able to pre-populate value.
+description: Salesforce doesn't provide any specific input tag that renders Look-up field in UI. The look-up component we are going to build is generic so that it can be re-used and not object specific Supports multi select and single select Able to pre-populate value.
 image: assets/images/look-up-aura.png
 toc: true
 author: kishore

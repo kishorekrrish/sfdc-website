@@ -4,7 +4,7 @@ title: Conditional Rendering and Iteration in Salesforce Lightning Web Component
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/05/conditional-rendering-and-iteration-lwc.html
-description: Conditional Rendering and Iteration in Salesforce Lightning Web Components. To render a DOM element in a template only when certain conditions are met, we use conditional rendering. To achieve this in Lightning Web Components we need to if:true,if:false to the nested <template> tag that encloses the element.
+description: To render a DOM element in a template only when certain conditions are met, we use conditional rendering. In Lightning Web Components we use if:true,if:false.
 image: assets/images/render-lists-conditionally.png
 author: kishore
 tags:

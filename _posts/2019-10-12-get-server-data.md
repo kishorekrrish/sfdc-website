@@ -4,7 +4,7 @@ title: Get Server Data using Lightning Web Components
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/06/get-data-in-lwc.html
-description: Get Server Data using Lightning Web Components. There are mainly two ways to get data using Lightning Web Components. Base Components which uses LDS Wire Service. For the very maximum try to get data or create records using lightning base components. If you think the requirement cannot be achieved by using Base Components, or if you thing more customization is needed, then use other means. LDS is built on top of UI Api.
+description: Server data can be fetched from Salesforce using 3 ways. Lightning Data Service, Wire Service and Simple Apex.
 image: assets/images/server-data/get-server-data.png
 author: kishore
 tags:

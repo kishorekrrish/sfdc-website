@@ -4,7 +4,7 @@ title: Blockers You will come across while starting with LWC
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Lightning ]
 permalink: /2019/09/blockers-in-lwc.html
-description: Blockers You will come across while starting with LWC. AURA supports one way and two way data binding, whereas LWC only supports one way data binding. We will how this is a blocker and also how to overcome this.
+description: AURA supports one way and two way data binding, whereas LWC only supports one way data binding. We will understand how this can be a blocker and also how to overcome this problem.
 image: assets/images/Blockers2-lwc.png
 author: kishore
 tags:
