@@ -27,7 +27,11 @@ title: Home
 </section>
 {% endif %}
 
-
+<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+{% if site.adsense == "enabled" %}
+    {% include adsense-under-header.html %}
+{% endif %}
+<!-- End Adsense -->
 
 <!-- Posts Index
 ================================================== -->
