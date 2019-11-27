@@ -43,6 +43,12 @@ post_class: post-template
 
             </div>
 
+            {% if site.adsense == "enabled" %}
+                {% if page.url != "/" %}
+                    {% include media_net1.html %}
+                {% endif %}
+            {% endif %}
+
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
             {% if site.adsense == "enabled" %}
                 {% if page.url != "/" %}

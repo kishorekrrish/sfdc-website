@@ -42,6 +42,11 @@
 <!-- Google auto Ads script-->
 <!--script data-ad-client="ca-pub-6753262254014660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script-->
 
+<!--Media.net-->
+{% if site.adsense == "enabled" %}
+    {% include media_net_head.html %}
+{% endif %}
+
 </head>
 
 {% if jekyll.environment == 'production' %}
