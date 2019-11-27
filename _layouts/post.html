@@ -142,7 +142,12 @@ post_class: post-template
             <div class="clearfix"></div>
             </div>
             <!-- End Categories -->
-
+            <!--Media.net-->
+            <div class="container">
+                {% if site.adsense == "enabled" %}
+                    {% include media_net1.html %}
+                {% endif %}
+            </div>
             <!--Related Posts-->
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <div class="addthis_relatedposts_inline"></div>
@@ -166,12 +171,7 @@ post_class: post-template
         </div>
     </div>
 {% endif %}
-<!--Media.net-->
-<div class="container">
-    {% if site.adsense == "enabled" %}
-        {% include media_net1.html %}
-    {% endif %}
-</div>
+
 <!--End Comments
 ================================================== -->
 
