@@ -154,9 +154,13 @@ post_class: post-template
                 <div class="addthis_relatedposts_inline"></div>
             <!--Related Posts Ends-->
 
-            <!-- Ezoic - InContent 1 - mid_content -->
-            <div id="ezoic-pub-ad-placeholder-101"></div>
-            <!-- End Ezoic - InContent 1 - mid_content -->
+            <!-- Ezoic - Bottom of post - native_bottom -->
+            <div id="ezoic-pub-ad-placeholder-104">
+                {% if site.adsense == "enabled" %}
+                    {% include adsense-under-header.html %}
+                {% endif %}
+            </div>
+            <!-- End Ezoic - Bottom of post - native_bottom -->
         </div>
         <!-- End Post -->
 
