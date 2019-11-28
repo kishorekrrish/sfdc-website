@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Request a Solution
+permalink: /request-a-solution
 ---
 
 
