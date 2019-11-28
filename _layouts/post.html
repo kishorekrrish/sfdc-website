@@ -123,6 +123,13 @@ post_class: post-template
             </div>
             <!-- End Tags -->
 
+            <!-- Ezoic - Bottom of post - native_bottom -->
+            <div id="ezoic-pub-ad-placeholder-104">
+                {% if site.adsense == "enabled" %}
+                    {% include adsense-under-header.html %}
+                {% endif %}
+            </div>
+            <!-- End Ezoic - Bottom of post - native_bottom -->
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -147,13 +154,7 @@ post_class: post-template
                 <div class="addthis_relatedposts_inline"></div>
             <!--Related Posts Ends-->
 
-            <!-- Ezoic - Bottom of post - native_bottom -->
-            <div id="ezoic-pub-ad-placeholder-104">
-                {% if site.adsense == "enabled" %}
-                    {% include adsense-under-header.html %}
-                {% endif %}
-            </div>
-            <!-- End Ezoic - Bottom of post - native_bottom -->
+            
         </div>
         <!-- End Post -->
 
