@@ -19,9 +19,9 @@ permalink: /request-a-solution
 
     </div>
 
-    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Requirement"></textarea>
     
-    <input class="btn btn-success" type="submit" value="Send">
+    <input class="btn btn-success" type="submit" value="Request">
 
 </form>
 <br>
