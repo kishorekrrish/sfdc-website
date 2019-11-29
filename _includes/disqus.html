@@ -1,14 +1,10 @@
-<button class="btn btn-primary" id="commentsButton" onclick="myFunction()">Read Comments</button>
-
-<div class="show-comments">
-    <button id="show-comments-button" onclick="disqus();return false;">Show Comments</button>
-</div>
+<button class="btn btn-primary" id="commentsButton" onclick="disqus();return false;">Read Comments</button>
 
 <div id="disqus_thread"></div>
 
 <script>
 var disqus_loaded = false;
-//var disqus_shortname = 'xxxxxxxx'; //Add your shortname here
+var disqus_shortname = 'salesforcelwc'; //Add your shortname here
 function disqus() {
     if (!disqus_loaded)  {
         disqus_loaded = true;
