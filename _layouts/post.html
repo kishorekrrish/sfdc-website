@@ -122,14 +122,14 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-
-            <!-- Ezoic - Bottom of post - native_bottom -->
-            <div id="ezoic-pub-ad-placeholder-104">
-                {% if site.adsense == "enabled" %}
+             
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            {% if site.adsense == "enabled" %}
+                {% if page.url != "/" %}
                     {% include adsense-under-header.html %}
                 {% endif %}
-            </div>
-            <!-- End Ezoic - Bottom of post - native_bottom -->
+            {% endif %}
+            <!-- End Adsense -->
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
