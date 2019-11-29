@@ -1,6 +1,6 @@
 <button class="btn btn-primary" onclick="myFunction()">Read Comments</button>
 
-<div id="myDIV">
+<div id="myDIV" style="display:none">
 <section class="disqus">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -20,10 +20,6 @@
 <script>
     function myFunction() {
         var x = document.getElementById("myDIV");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
+        x.style.display = "block";
+    }
 </script>
