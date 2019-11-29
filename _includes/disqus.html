@@ -1,6 +1,6 @@
-<button class="btn btn-primary showCommentsButtons" onclick="myFunction()">Read Comments</button>
+<button class="btn btn-primary" id="commentsButton" onclick="myFunction()">Read Comments</button>
 
-<div class="showComments" style="display:none">
+<div id="showComments" style="display:none">
 <section class="disqus">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -19,10 +19,9 @@
 
 <script>
     function myFunction() {
-        var x = document.getElementsByClassName("showComments");
+        var x = document.getElementById("showComments");
         x.style.display = "block";
-
-        var y = document.getElementsByClassName("showCommentsButtons");
+        var y = document.getElementById("commentsButton");
         y.style.display = "none";
     }
 </script>
