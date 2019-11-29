@@ -1,6 +1,8 @@
-<button class="btn btn-primary" onclick="myFunction()">Read Comments</button>
+<button class="btn btn-primary hideComments" onclick="showComments()">Read Comments</button>
 
-<div id="myDIV" style="display:none">
+<button class="btn btn-primary showComments" onclick="hideComments()">Hide Comments</button>
+
+<div class="myDIV" style="display:none">
 <section class="disqus">
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -18,8 +20,12 @@
 </div>
 
 <script>
-    function myFunction() {
-        var x = document.getElementById("myDIV");
+    function showComments() {
+        var x = document.getElementsByClassName("showComments");
         x.style.display = "block";
+    }
+    function hideComments() {
+        var x = document.getElementsByClassName("hideComments");
+        x.style.display = "none";
     }
 </script>
