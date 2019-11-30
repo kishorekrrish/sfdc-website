@@ -903,7 +903,7 @@ iframe {
 /* Added by Kishore */
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 250px 250px;
     background-color: #2196F3;
     padding: 10px;
   }
