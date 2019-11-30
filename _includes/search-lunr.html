@@ -1,4 +1,4 @@
-<script async src="{{site.baseurl}}/assets/js/lunr.js"></script>
+<!--script async src="{{site.baseurl}}/assets/js/lunr.js"></script-->
 
 
 <style>
@@ -21,6 +21,11 @@
 <!--script async src="{{site.baseurl}}/assets/js/lunrsearchengine.js"></script-->
 <script>
     function loadLunarSearchEngine() {
+
+        var myScriptOne = document.createElement('script');
+        myScriptOne.src = "{{site.baseurl}}/assets/js/lunr.js";
+        document.head.appendChild(myScriptOne);
+
         var myScript = document.createElement('script');
         myScript.src = "{{site.baseurl}}/assets/js/lunrsearchengine.js";
         document.head.appendChild(myScript);
