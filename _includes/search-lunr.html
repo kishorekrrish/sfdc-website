@@ -23,8 +23,9 @@
 <script>
     function callLunarSearch(){
         
-        var script = document.createElement('script');
-        script.src = "{{site.baseurl}}/assets/js/lunrsearchengine.js";
+        var myScript = document.createElement('script');
+        myScript.src = "{{site.baseurl}}/assets/js/lunrsearchengine.js";
+        document.head.appendChild(myScript);
 
         return lunr_search(document.getElementById('lunrsearch').value);
     }
