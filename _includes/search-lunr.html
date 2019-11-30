@@ -10,8 +10,8 @@
 </style>
 
 
-<form class="bd-search" onSubmit="callLunarSearch();">
-    <input type="text" class="form-control text-small launch-modal-search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
+<form class="bd-search" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control text-small launch-modal-search" onclick="loadLunarSearchEngine();" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Type and enter..."/>
 </form>
 
 <div id="lunrsearchresults">
@@ -19,14 +19,10 @@
 </div>
 
 <!--script async src="{{site.baseurl}}/assets/js/lunrsearchengine.js"></script-->
-
 <script>
-    function callLunarSearch(){
-        
+    function loadLunarSearchEngine() {
         var myScript = document.createElement('script');
         myScript.src = "{{site.baseurl}}/assets/js/lunrsearchengine.js";
         document.head.appendChild(myScript);
-
-        return lunr_search(document.getElementById('lunrsearch').value);
     }
 </script>
