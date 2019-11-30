@@ -144,11 +144,20 @@ post_class: post-template
             <!-- End Categories -->
             <!--Media.net-->
             <br>
-            <div class="container">
-                {% if site.adsense == "enabled" %}
+
+            <div class="grid-container">
+                <div class="grid-item">
+                    {% if site.adsense == "enabled" %}
                     {% include media_net1.html %}
-                {% endif %}
+                    {% endif %}
+                </div>
+                <div class="grid-item">
+                    {% if site.adsense == "enabled" %}
+                    {% include media_net1.html %}
+                    {% endif %}
+                </div>
             </div>
+
             <!--Related Posts-->
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
                 <div class="addthis_relatedposts_inline"></div>
