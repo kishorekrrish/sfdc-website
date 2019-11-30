@@ -123,13 +123,18 @@ post_class: post-template
             </div>
             <!-- End Tags -->
              
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-            {% if site.adsense == "enabled" %}
-                {% if page.url != "/" %}
+            <div class="grid-container">
+                <div class="grid-item">
+                    {% if site.adsense == "enabled" %}
                     {% include adsense-under-header.html %}
-                {% endif %}
-            {% endif %}
-            <!-- End Adsense -->
+                    {% endif %}
+                </div>
+                <div class="grid-item">
+                    {% if site.adsense == "enabled" %}
+                    {% include adsense-under-header.html %}
+                    {% endif %}
+                </div>
+            </div>
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -143,20 +148,11 @@ post_class: post-template
             </div>
             <!-- End Categories -->
             <!--Media.net-->
-            <br>
-
-            <div class="grid-container">
-                <div class="grid-item">
-                    {% if site.adsense == "enabled" %}
+            <!--div class="container">
+                {% if site.adsense == "enabled" %}
                     {% include media_net1.html %}
-                    {% endif %}
-                </div>
-                <div class="grid-item">
-                    {% if site.adsense == "enabled" %}
-                    {% include media_net1.html %}
-                    {% endif %}
-                </div>
-            </div>
+                {% endif %}
+            </div-->
 
             <!--Related Posts-->
                 <!-- Go to www.addthis.com/dashboard to customize your tools -->
