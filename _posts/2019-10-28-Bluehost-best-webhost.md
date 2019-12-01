@@ -46,7 +46,7 @@ Bluehost provides
 6. Doesn't have upgraded software version as recommended by WordPress
 
 ## What does Internet has to say about Bluehost?
-![Wordpress about Bluehost]({{ site.baseurl }}/assets/images/bluehost/Wordpress-Bluehost.png)
+![Wordpress about Bluehost]({{ site.url }}/assets/images/bluehost/Wordpress-Bluehost.png)
 
 ![Bitcatcha about Bluehost](/assets/images/bluehost/Bitcatcha-Bluehost.png)
 <br>
