@@ -3,7 +3,7 @@ layout: post
 title:  "Bluehost - One of the best web hosting company"
 author: kishore
 categories: [ Webhosting, Blog ]
-image: assets/images/bluehost/bluehost.png
+image: "{{ site.url }}/assets/images/bluehost/bluehost.png"
 last_modified_at:   2019-11-03 8:30:00 +0000
 description: Bluehost is one of the best web hosting service provider. Choose any of the service that meets your needs and start building awesome websites. There are other web hosting companies like SiteGround, Hostinger, Hostgator which offer better performance. Bluehost is recommended for small and medium websites.
 ---
@@ -51,7 +51,7 @@ Bluehost provides
 ![Bitcatcha about Bluehost]({{ site.url }}/assets/images/bluehost/Bitcatcha-Bluehost.png)
 <br>
 <div style="width:300px; height:300px">
-<a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="/assets/images/bluehost/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
+<a href="https://www.bluehost.com/track/salesforcelwc/" rel="nofollow" title="Bluhost one of the best web hosting"><img src="{{ site.url }}/assets/images/bluehost/Bluehost-Sidebar.gif" alt="Bluhost one of the best web hosting" /></a>
 </div>
 
 ## What Bluehost has to Offer
