@@ -138,7 +138,7 @@ post_class: post-template
             </div>
             <!-- End Tags -->
              
-            <div class="grid-container">
+            <!--div class="grid-container">
                 <div class="grid-item">
                     {% if site.adsense == "enabled" %}
                     {% include adsense_square_ads.html %}
@@ -149,7 +149,15 @@ post_class: post-template
                     {% include adsense_square_ads.html %}
                     {% endif %}
                 </div>
-            </div>
+            </div-->
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            {% if site.adsense == "enabled" %}
+                {% if page.url != "/" %}
+                    {% include adsense-under-header.html %}
+                {% endif %}
+            {% endif %}
+            <!-- End Adsense -->
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
