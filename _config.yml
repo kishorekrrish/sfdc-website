@@ -1,7 +1,7 @@
 # Site
 name: "Salesforce Lwc"
 title: "Salesforce Lwc"
-description: "Salesforce LWC is a platform where you can learn Salesforce, Aura components, Lightning web components and Apex with relevant scenarios. Salesforce CRM Software is one of the most preferred CRM in the CRM Industry."
+description: "Salesforce LWC is a platform where you can learn Salesforce, Aura, Lightning web components and Apex with relevant lwc examples. Salesforce CRM Software is one of the most preferred CRM in the CRM Industry."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
