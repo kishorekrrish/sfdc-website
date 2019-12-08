@@ -2,10 +2,24 @@
 layout: default
 ---
 
+<style>
+    /* Added by Kishore */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+</style>
 
 <section>
-    <div class="section-title">
-        <h2><span>{{ page.title }}</span></h2>
+    <div class="section-title grid-container">
+        <h2 class="grid-item"><span>{{ page.title }}</span></h2>
+        <div class="grid-item"></div>
     </div>
 
     <div class="article-post">
