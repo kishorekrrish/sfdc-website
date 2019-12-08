@@ -158,6 +158,14 @@ post_class: post-template
             {% endif %}
             <div class="clearfix"></div>
             </div>
+
+            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+            {% if site.adsense == "enabled" %}
+                {% if page.url != "/" %}
+                    {% include adsense-under-header.html %}
+                {% endif %}
+            {% endif %}
+            <!-- End Adsense -->
             <!-- End Categories -->
 
             <!--Adblade-->
@@ -166,12 +174,7 @@ post_class: post-template
                 {% if site.adsense == "enabled" %}
                     {% include Adblade_First.html %}
                 {% endif %}
-            </div>
-
-            <Related Posts>
-               
-                <div class="addthis_relatedposts_inline"></div-->
-            <!--Related Posts Ends-->
+            </div-->
 
             
         </div>
