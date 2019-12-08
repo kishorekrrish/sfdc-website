@@ -1,5 +1,5 @@
 <div class="share sticky-top sticky-top-offset">
-    <p>
+    <!--p>
         Share
     </p>
     <ul>
@@ -43,6 +43,13 @@
         <li class="ml-1 mr-1">
             <a href="{{ site.baseurl }}/categories#Apex">Apex</a>
         </li>
-    </ul>
+    </ul-->
+
+    <!--Ads-->
+    <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+    {% if site.adsense == "enabled" %}
+        {% include adsense-under-header.html %}
+    {% endif %}
+<!-- End Adsense -->
 </div>
 
