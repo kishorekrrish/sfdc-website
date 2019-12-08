@@ -14,7 +14,7 @@ tags:
 ## What!
 Dynamically Add/Delete Rows is a component in which we can add and delete rows dynamically on the user interface by simple clicks. It can be used where multiple rows are to be added in a list or to be deleted as per the requirement without hard coding the number of rows in the code.
 
-<iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="315" src="https://www.youtube.com/embed/Wm98VvVSKDA" width="560"></iframe>
+<iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Wm98VvVSKDA" frameborder="0" allowfullscreen></iframe>
 
 ## Why!
 Salesforce has provided standard lightning:datatable why can't we use this. You can use the standard data table as well but real challenge comes when the data comprises of fields like look up and pick list.
