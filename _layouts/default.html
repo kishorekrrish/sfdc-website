@@ -42,7 +42,19 @@
 
 <!-- Google auto Ads script-->
 <!--script data-ad-client="ca-pub-6753262254014660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script-->
+<style>
+    /* Added by Kishore */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
 
+    .grid-item {
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+</style>
 
 </head>
 
@@ -159,8 +171,11 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
-    <h2 class="sitetitle">{{ site.name }}</h2>
+<div class="mainheading grid-container">
+    <h2 class="sitetitle grid-item">{{ site.name }}</h2>
+    <div class="grid-item">
+        <img src="{{ site.url}}/assets/images/site-logo.png" alt="Recreation">
+    </div>
     <!--p class="lead">
         {{ site.description }}
     </p-->
