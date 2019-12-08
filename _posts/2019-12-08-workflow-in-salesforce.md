@@ -19,10 +19,10 @@ Workflow Rule is a basic automation tool provided by **Salesforce** to achieve a
 Workflow lets you automate standard internal procedures and processes to save time. A workflow rule is the main container for a set of workflow instructions. These instructions can always be summed up in an if/then statement.
 
 **Workflow rules have two key components**
- - Criteria
+ - **Criteria**
    - If criteria evaluate to "True" the specified actions get executed, if criteria evaluate to "False" the specified actions don't get evaluated. It's simple if this then does that principal.
     - There are two types of criteria, Evaluation criteria, and Rule criteria. Evaluation criteria specify when the workflow has to be triggered and rule criteria tell the triggered workflow when to execute the workflow actions. 
- - Actions
+ - **Actions**
    - These are the set of actions that get executed when the criteria evaluate to true.
 
 
