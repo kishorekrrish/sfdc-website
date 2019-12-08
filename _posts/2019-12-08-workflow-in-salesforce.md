@@ -75,3 +75,6 @@ Set any of the below-mentioned actions
 ***Activate the Workflow Rule***
 Activate the workflow rule for automating the tasks for your user.
 ![Activate workflow rule]({{ site.url }}/assets/images/workflow/workflow-activate.png)
+
+If you find this article useful, please let me know in the comments below. 
+Write to me about your favourite automation tool in salesforce.
