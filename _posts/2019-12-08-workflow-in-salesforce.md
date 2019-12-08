@@ -61,7 +61,7 @@ Set the rule criteria using the default conditionality table or using the formul
 
 ![Set the Rule criteria in workflow]({{ site.url }}/assets/images/workflow/workflow-rule-criteria.png)
 
-![Select the evaluation criteria in workflow]({{ site.url }}/assets/images/workflow/workflow-criteria-formula.png)
+![Select the evaluation criteria in workflow]({{ site.url }}/assets/images/workflow/workflow-rule-criteria-formula.png)
 
 ***Set the Actions to be performed,***
 Set any of the below-mentioned actions
