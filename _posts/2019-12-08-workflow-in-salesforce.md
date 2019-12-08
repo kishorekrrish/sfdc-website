@@ -70,7 +70,7 @@ Set any of the below-mentioned actions
  - Outbound Messages
  - Email Alert
 
- !Set the Actions to be performed in workflow]({{ site.url }}/assets/images/workflow/workflow-actions.png)
+ ![Set the Actions to be performed in workflow]({{ site.url }}/assets/images/workflow/workflow-actions.png)
 
 ***Activate the Workflow Rule***
 Activate the workflow rule for automating the tasks for your user.
