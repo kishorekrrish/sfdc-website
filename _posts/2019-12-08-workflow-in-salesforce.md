@@ -13,12 +13,12 @@ tags:
 - Automation
 ---
 
-<a href="{{ site.url }}/assets/files/Workflow_Rules_In_Salesforce.pdf" class="btn btn-primary" download>Download PDF to read later</a>
-
 ## WorkFlow
 Workflow Rule is a basic automation tool provided by **Salesforce** to achieve automation of repetitive manual tasks without any code and just by simple clicks. Workflow rule is one of the old automation tools, as a best practice Salesforce always recommends to go with Workflow rule first unless your requirement contains something that cannot be achieved using Workflow Rule.
 
 Workflow lets you automate standard internal procedures and processes to save time. A workflow rule is the main container for a set of workflow instructions. These instructions can always be summed up in an if/then statement.
+
+<a href="{{ site.url }}/assets/files/Workflow_Rules_In_Salesforce.pdf" class="btn btn-primary" download>Download PDF to read later</a>
 
 **Workflow rules have two key components**
  - **Criteria**
