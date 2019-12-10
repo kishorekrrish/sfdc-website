@@ -18,6 +18,10 @@ tags:
 
 ![Main lightning flow builder flow]({{ site.url }}/assets/images/flows/Main-flow-diagram.png)
 
+## Preview
+
+<iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/ZMQkFouwnX4" frameborder="0" allowfullscreen></iframe>
+
 ## Flow Elements Required
 
  - Get Records Element 
@@ -25,6 +29,7 @@ tags:
  - Update Records Element
 
 ## Flow Variables Required
+
 - recordId (Text)
 - accountLookupId (Text)
 - varContactRecordValues (Record)
@@ -72,6 +77,7 @@ Enjoy the live easy made flow component to edit and view contact record.
 
 ![Live Flow Component Record Page in Lightning flow builder]({{ site.url }}/assets/images/flows/flow-component.png)
 
+Write to me how you feel about new Lightning Flow Builder and how it made your life easier.
 
 
 
