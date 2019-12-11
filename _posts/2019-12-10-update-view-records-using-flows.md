@@ -11,6 +11,8 @@ beforetoc: "To create or update records in Salesforce you no longer need to writ
 author: kishore
 tags:
 - Automation
+featured: true
+hidden: true
 ---
 
 
