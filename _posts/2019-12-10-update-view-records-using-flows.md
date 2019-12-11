@@ -34,9 +34,6 @@ tags:
 - accountLookupId (Text)
 - varContactRecordValues (Record)
 
-## All Resources Used
-![All Resources Used flow builder]({{ site.url }}/assets/images/flows/resources.png)
-
 **recordId (Text)**
 ![record Id flow builder]({{ site.url }}/assets/images/flows/recordId-variable.png)
 
@@ -45,6 +42,9 @@ tags:
 
 **varContactRecordValues (Record)**
 ![contact record flow builder]({{ site.url }}/assets/images/flows/contact-record-values-variable-flow.png)
+
+## All Resources Used
+![All Resources Used flow builder]({{ site.url }}/assets/images/flows/resources.png)
 
 ## Get Records Element
 Get Records Element is used to find and get the records from the Salesforce database. In this case, we will use Get Records Element to get the record using record Id, for this, we need to create a variable named "recordId" and allow it for input and use this record Id to filter the contacts and get the contact record.
