@@ -6,6 +6,8 @@ categories: [ Webhosting, Blog ]
 image: assets/images/bluehost/bluehost.png
 last_modified_at:   2019-11-03 8:30:00 +0000
 description: Bluehost is one of the best web hosting service provider. Choose any of the service that meets your needs and start building awesome websites. There are other web hosting companies like SiteGround, Hostinger, Hostgator which offer better performance. Bluehost is recommended for small and medium websites.
+featured: true
+hidden: true
 ---
 
 [Bluehost](https://www.bluehost.com/track/salesforcelwc/){:rel="nofollow"} is a leading web hosting provider used by millions of users worldwide. Over 2 million websites worldwide are powered by Bluehost. 
