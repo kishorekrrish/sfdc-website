@@ -71,6 +71,8 @@ Obviously, we need declare the properties that could communicate between LWC and
     </targetConfigs>
 </LightningComponentBundle>
 ```
+Find more configuration file tags in [Salesforce documentation](https://developer.salesforce.com/docs/component-library/documentation/lwc/lwc.reference_configuration_tags){rel="nofollow"}{target="_blank"}.
+
 Now eveything looks good.
 
 ## Lightning Web Component
