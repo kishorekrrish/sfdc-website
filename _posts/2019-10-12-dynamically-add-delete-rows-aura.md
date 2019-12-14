@@ -263,11 +263,11 @@ If you think there are better ways doing this, please write it in the comments b
 
 ## Also Read
 
-[Editable List with files and notify option in Salesforce Lightning (Aura)](/2019/05/editable-list-with-files-and-notify.html)
+[Editable List with files and notify option in Salesforce Lightning (Aura)]({{site.url}}/2019/05/editable-list-with-files-and-notify.html)
 
-[Create a Custom Component to Send an Email in Salesforce Lightning](/2019/04/create-custom-component-to-send-email.html)
+[Create a Custom Component to Send an Email in Salesforce Lightning]({{site.url}}/2019/04/create-custom-component-to-send-email.html)
 
-[Custom Lookup Component in Salesforce Lightning - Updated](/2019/05/custom-lookup-component-in-salesforce.html)
+[Custom Lookup Component in Salesforce Lightning - Updated]({{site.url}}/2019/05/custom-lookup-component-in-salesforce.html)
 
 
 If you enjoyed this blog post, share it with your group!
