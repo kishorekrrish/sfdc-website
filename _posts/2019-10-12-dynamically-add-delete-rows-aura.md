@@ -11,26 +11,28 @@ author: kishore
 tags:
 - Lightning
 ---
-## What!
+## What is Dynamic Rows!
 Dynamically Add/Delete Rows is a component in which we can add and delete rows dynamically on the user interface by simple clicks. It can be used where multiple rows are to be added in a list or to be deleted as per the requirement without hard coding the number of rows in the code.
 
 <iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Wm98VvVSKDA" frameborder="0" allowfullscreen></iframe>
 
-## Why!
+## Why use Dynamic Rows!
 Salesforce has provided standard lightning:datatable why can't we use this. You can use the standard data table as well but real challenge comes when the data comprises of fields like look up and pick list.
 
-## How!
+## How to use Dynamic Rows!
 For building this component we are going to create following components and controllers.
 
 - DynamicRows (Child)
 - DynamicRowsParent (Parent)
 - dynamicRowsController (Apex Controller)
 
-![Dynamically Add/Delete Rows in Salesforce Lightning](/assets/images/add-delete/add-delete.png)
+![Dynamically Add/Delete Rows in Salesforce Lightning]({{site.url}}/assets/images/add-delete/add-delete.png)
 
 This is just a simple example, customize it more as per your requirement.
 
 > Styling: I have used lightning:layout and lightning:layoutItem in a card. You can find these components in Lightning Component library.you can use any of the styling as per your convenience.
+
+Related: [Editable List in LWC]({{site.url}}/2019/04/blog-post.html)
 
 ## How two way binding makes our task simpler:
 Lightning Aura components supports two types of data binding
@@ -41,7 +43,7 @@ Lightning Aura components supports two types of data binding
 
 As we have used bound expression in our parent component, The attribute records can be changed by the child component as well, which reduces our work of not using component events in order to get data entered in child. If you are not familiar about communication of components through event please get some knowledge about events.
 
-> Note: If you are trying to implement the same using Lightning Web Components be ware that  LWC only supports one way binding.  If you experienced something like this please write in the comments below so that we can discuss.
+> Note: If you are trying to implement the same using Lightning Web Components be ware that [LWC only supports one way binding]({{site.url}}/2019/09/blockers-in-lwc.html). If you experienced something like this please write in the comments below so that we can discuss.
 
 ## array.splice()
 splice() is a Javascript method which adds/removes items to/from an array, and returns the removed item(s).
@@ -259,7 +261,7 @@ public with sharing class dynamicRowsController {
 <br>
 If you think there are better ways doing this, please write it in the comments below.
 
-## Also Read:
+## Also Read
 
 [Editable List with files and notify option in Salesforce Lightning (Aura)](/2019/05/editable-list-with-files-and-notify.html)
 
@@ -267,8 +269,8 @@ If you think there are better ways doing this, please write it in the comments b
 
 [Custom Lookup Component in Salesforce Lightning - Updated](/2019/05/custom-lookup-component-in-salesforce.html)
 
-**One Small help:**
+
 If you enjoyed this blog post, share it with your group!
 
-Do subscribe, for getting latest updates directly in your inbox.
+Subscribe, to get latest updates directly in your inbox.
 
