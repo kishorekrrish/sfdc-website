@@ -50,7 +50,7 @@ Wait a Second!  How would the Flow know what accounts I have selected in the lig
 
 Obviously, we need declare the properties that could communicate between LWC and Flow. As, we have Targets we also have Target Configs where we declare properties. In this case we declare two properties 
 - Property named **Accounts** of type="@salesforce/schema/account[]" which recieves list of accounts that have to displayed in the list.
-- Property names "selectedAccsString" of type="String", so that we could display selected records Ids as a string. we can probably declare another property of type array of string to capture selected Ids as an array of strings instead of string.
+- Property named **selectedAccsString** of type="String", so that we could display selected records Ids as a string. we can probably declare another property of type array of string to capture selected Ids as an array of strings instead of string.
 
 ```html
 <?xml version="1.0" encoding="UTF-8"?>
