@@ -16,7 +16,7 @@ tags:
  Almost any thing can be achieved using Lightning Flow Builder like creating the records, updating the records, sending an e-mail, invoke approval process, call apex class, display and interact with lightning components and even call an External system and what not. It would be very un-cool if we as **Salesforce Developer/Admin** don't utilize such a great tool to the depths. In this article we will get some knowledge about how to use **Lightning Web Components** in Lightning Flow Builder to build better looking and un-conventional flow components.
 
 ## Preview
-![LWC Flow gif]({{ site.url }}/assets/images/lwc-flow/lwc-flow-gif.gif =448x)
+![LWC Flow gif]({{ site.url }}/assets/images/lwc-flow/lwc-flow-gif.gif =448 x 246.4)
 
 ## What is Lightning Flow Builder
 If you are a Salesforce Developer/Admin you would obviously be knowing what Lightning Flow Builder is? this is just to make sure we are on the right track.
