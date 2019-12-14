@@ -15,6 +15,9 @@ tags:
 
  Almost any thing can be achieved using Lightning Flow Builder like creating the records, updating the records, sending an e-mail, invoke approval process, call apex class, display and interact with lightning components and even call an External system and what not. It would be very un-cool if we as **Salesforce Developer/Admin** don't utilize such a great tool to the depths. In this article we will get some knowledge about how to use **Lightning Web Components** in Lightning Flow Builder to build better looking and un-conventional flow components.
 
+## Preview
+![LWC Flow gif]({{ site.url }}/assets/images/lwc-flow/lwc-flow-gif.gif)
+
 ## What is Lightning Flow Builder
 If you are a Salesforce Developer/Admin you would obviously be knowing what Lightning Flow Builder is? this is just to make sure we are on the right track.
 Lightning Flow Builder is the New **Automation** Tool launched by Salesforce which is built using modern technologies. It's earlier version is Cloud FLow Designer which is depricated.
@@ -31,7 +34,7 @@ To make Lightning Web Component available for Flow screens add a target to the t
     <apiVersion>45.0</apiVersion>
     <isExposed>true</isExposed>
 
- >  <targets>
+    <targets>
         <target>lightning__FlowScreen</target>
     </targets>
 </LightningComponentBundle>
@@ -56,14 +59,14 @@ Obviously, we need declare the properties that could communicate between LWC and
     <isExposed>true</isExposed>
 
     <targets>
-        <target>lightning__FlowScreen</target>
+        <target>`lightning__FlowScreen`</target>
     </targets>
 
 >     <targetConfigs>
         <targetConfig targets="lightning__FlowScreen">
-            <property name="Accs" type="@salesforce/schema/account[]" label="Accounts" description="list of Accounts"/>
+            `<property name="Accs" type="@salesforce/schema/account[]" label="Accounts" description="list of Accounts"/>
             <property name="selectedAccs" type="String[]" label="Selected Accounts" description="Selected Account Ids"/>
-            <property name="selectedAccsString" type="String" label="Selected Accounts String" description="Selected Account Ids"/>
+            <property name="selectedAccsString" type="String" label="Selected Accounts String" description="Selected Account Ids"/>`
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
@@ -172,18 +175,35 @@ Below is the flow that uses LWC. The images are self explanatory.
 
 **Flow**
 ![Main lightning flow builder flow]({{ site.url }}/assets/images/lwc-flow/main-flow-diagram.png)
+
 **Resources used in Flow**
 ![Resources used in Lightning builder flow]({{ site.url }}/assets/images/lwc-flow/resources-lwc-flow.png)
+
+## Variables Used
+- varAccountList
+- varSelectedIds
+
 **varAccountList**
 ![varAccountList in lightning flow builder]({{ site.url }}/assets/images/lwc-flow/account-list-var-in-flow.png)
+
 **varSelectedIds**
 ![varSelectedIds in lightning flow builder]({{ site.url }}/assets/images/lwc-flow/selected-var-flows.png)
+
+## Get Records Element
+
 **Get Accounts Element**
 ![Get Accounts Element in lightning flow builder]({{ site.url }}/assets/images/lwc-flow/get-accounts-flow.png)
+
 **Drag LWC to Screen Element**
 ![Drag LWC to Screen Element lightning flow builder]({{ site.url }}/assets/images/lwc-flow/drag-lwc-to-flow.png)
+
+## Screen Elements
+- LWC Screen Element
+- Selected Ids Screen Element
+
 **LWC Screen Element**
 ![LWC Screen Element lightning flow builder]({{ site.url }}/assets/images/lwc-flow/lwc-screen-flow.png)
+
 **Selected Ids Screen Element**
 ![Selected Ids Screen Element lightning flow builder]({{ site.url }}/assets/images/lwc-flow/selected-screen-flow.png)
 
