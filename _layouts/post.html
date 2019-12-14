@@ -12,7 +12,7 @@ post_class: post-template
     /* Added by Kishore */
     .grid-container {
         display: grid;
-        grid-template-columns: auto auto;
+        grid-template-columns: auto;
     }
 
     .grid-item {
@@ -137,16 +137,18 @@ post_class: post-template
                 </ul>
             </div>
             <!-- End Tags -->
-             
-            
 
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-            {% if site.adsense == "enabled" %}
-                {% if page.url != "/" %}
+            <div class="grid-container">
+                <div class="grid-item">
+                    <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+                    {% if site.adsense == "enabled" %}
+                    {% if page.url != "/" %}
                     {% include adsense-under-header.html %}
-                {% endif %}
-            {% endif %}
-            <!-- End Adsense -->
+                    {% endif %}
+                    {% endif %}
+                    <!-- End Adsense -->
+                </div>
+            </div>
             
             <!-- Prev/Next -->
             <div class="row PageNavigation d-flex justify-content-between font-weight-bold">
@@ -159,13 +161,17 @@ post_class: post-template
             <div class="clearfix"></div>
             </div>
 
-            <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-            {% if site.adsense == "enabled" %}
-                {% if page.url != "/" %}
+            <div class="grid-container">
+                <div class="grid-item">
+                    <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
+                    {% if site.adsense == "enabled" %}
+                    {% if page.url != "/" %}
                     {% include adsense-under-header.html %}
-                {% endif %}
-            {% endif %}
-            <!-- End Adsense -->
+                    {% endif %}
+                    {% endif %}
+                    <!-- End Adsense -->
+                </div>
+            </div>
             <!-- End Categories -->
 
             <!--Adblade-->
