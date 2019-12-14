@@ -59,14 +59,14 @@ Obviously, we need declare the properties that could communicate between LWC and
     <isExposed>true</isExposed>
 
     <targets>
-        <target>`lightning__FlowScreen`</target>
+        <target>lightning__FlowScreen</target>
     </targets>
 
->     <targetConfigs>
+    <targetConfigs>
         <targetConfig targets="lightning__FlowScreen">
-            `<property name="Accs" type="@salesforce/schema/account[]" label="Accounts" description="list of Accounts"/>
+            <property name="Accs" type="@salesforce/schema/account[]" label="Accounts" description="list of Accounts"/>
             <property name="selectedAccs" type="String[]" label="Selected Accounts" description="Selected Account Ids"/>
-            <property name="selectedAccsString" type="String" label="Selected Accounts String" description="Selected Account Ids"/>`
+            <property name="selectedAccsString" type="String" label="Selected Accounts String" description="Selected Account Ids"/>
         </targetConfig>
     </targetConfigs>
 </LightningComponentBundle>
