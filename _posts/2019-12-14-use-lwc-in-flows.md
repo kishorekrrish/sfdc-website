@@ -4,7 +4,7 @@ title: Use Lightning Web Component in Flows
 date: '2019-12-14T22:25:00.000-07:00'
 categories: [ Automation, Salesforce Automation ]
 permalink: /use-lwc-in-flows.html
-description: Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without single line of code. Use Lightning Web Component to make better UI experience for users.
+description: Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without a single line of code. Use Lightning Web Component to make a better UI experience for users.
 image: assets/images/lwc-flow/lwc-flow.png
 toc: true
 beforetoc: "Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without single line of code."
@@ -13,14 +13,14 @@ tags:
 - Automation
 ---
 
- Almost any thing can be achieved using Lightning Flow Builder like creating the records, updating the records, sending an e-mail, invoke approval process, call apex class, display and interact with lightning components and even call an External system and what not. It would be very un-cool if we as **Salesforce Developer/Admin** don't utilize such a great tool to the depths. In this article we will get some knowledge about how to use **Lightning Web Components** in Lightning Flow Builder to build better looking and un-conventional flow components.
+ Almost anything can be achieved using Lightning Flow Builder like creating the records, updating the records, sending an e-mail, invoke the approval process, call apex class, display and interact with lightning components and even call an External system and whatnot. It would be very un-cool if we as **Salesforce Developer/Admin** don't utilize such a great tool to the depths. In this article, we will get some knowledge about how to use **Lightning Web Components** in Lightning Flow Builder to build better looking and un-conventional flow components.
 
 ## Preview
 ![LWC Flow gif]({{ site.url }}/assets/images/lwc-flow/lwc-flow-gif.gif)
 
 ## What is Lightning Flow Builder
-If you are a Salesforce Developer/Admin you would obviously be knowing what Lightning Flow Builder is? this is just to make sure we are on the right track.
-Lightning Flow Builder is the New **Automation** Tool launched by Salesforce which is built using modern technologies. It's earlier version is Cloud FLow Designer which is depricated.
+If you are a Salesforce Developer/Admin you would be knowing what Lightning Flow Builder is? this is just to make sure we are on the right track.
+Lightning Flow Builder is the New **Automation** Tool launched by Salesforce which is built using modern technologies. It's earlier version is Cloud Flow Designer which is deprecated.
 
 ## Why to use Lightning Web Components in Flow
 We use Lightning Web Components in Flow to offer better UI experience for the Users and also to achieve things which flow alone cannot do.
@@ -44,12 +44,12 @@ By adding this tag the Lightning Web Component becomes available for flow screen
 
 **Let's get some clarity of the requirement before we move forward**
 Let's have you want a flow that displays a list of Accounts in a nice SLDS styled data-table, select the accounts and display the selected account Ids.
-That's pretty staright-forward, I took this simple example so don't get confused.
+That's pretty straight-forward, I took this simple example so don't get confused.
 
-Wait a Second!  How would the Flow know what accounts I have selected in the lightning component, is there anything that communicates between LWC and Flows ?
+Wait a Second! How would the Flow know what accounts I have selected in the lightning component, is there anything that communicates between LWC and Flows?
 
-Obviously, we need declare the properties that could communicate between LWC and Flow. As, we have Targets we also have Target Configs where we declare properties. In this case we declare two properties 
-- Property named **Accounts** of type="@salesforce/schema/account[]" which recieves list of accounts that have to displayed in the list.
+We need to declare the properties that could communicate between LWC and Flow. As we have Targets we also have Target Configs where we declare properties. In this case, we declare two properties 
+- Property named **Accounts** of type="@salesforce/schema/account[]" which receives a list of accounts that have to displayed in the list.
 - Property named **selectedAccsString** of type="String", so that we could display selected records Ids as a string. we can probably declare another property of type array of string to capture selected Ids as an array of strings instead of string.
 
 ```html
