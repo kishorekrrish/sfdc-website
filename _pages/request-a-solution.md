@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Request a Solution
-permalink: /request-a-solution
+title: Be a Contributor
+permalink: /be-a-contributor
 ---
 
 
@@ -19,9 +19,9 @@ permalink: /request-a-solution
 
     </div>
 
-    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Requirement"></textarea>
+    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Post"></textarea>
     
-    <input class="btn btn-success" type="submit" value="Request">
+    <input class="btn btn-success" type="submit" value="Submit">
 
 </form>
 <br>
