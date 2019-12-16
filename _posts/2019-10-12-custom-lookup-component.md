@@ -19,7 +19,7 @@ Hi guys, today we are going to create a custom look-up component using Lightning
 * Do not remove this line (it will not be displayed)
 {:toc}
 
-## Create your first Lightning Web Component
+## Look up
 Look-up Component is one of that. As a Salesforce crm developer, we are well aware that there is no base component provided by salesforce either in AURA or LWC. So, in this article, you will understand how to create a Custom Lookup component that can be reused for any object in Salesforce crm.
 
 We are going to leverage Wire Service in building this component. know more about wire service
