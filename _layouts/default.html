@@ -41,8 +41,9 @@
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
 <!-- Google auto Ads script-->
-<!--script data-ad-client="ca-pub-6753262254014660" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script-->
-
+{% if page.autoads %}
+     {% include autoads.html %}
+{% endif %}
 
 </head>
 
