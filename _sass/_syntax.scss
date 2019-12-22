@@ -1,7 +1,7 @@
 
 .highlight {
 	background: #fff;
-    border: 1px solid gray !important;
+    border: 0;
     padding: 1px;
     margin-bottom:1.7rem;
 	.c { color: #999988; font-style: italic } /* Comment */
@@ -68,6 +68,9 @@
 td.rouge-code { width: 100%;}
 pre.lineno { color: #9999;}
 
+pre .highlight {
+	border: 1px solid gray !important;
+}
 /*table {
 	padding: 0;
   }
