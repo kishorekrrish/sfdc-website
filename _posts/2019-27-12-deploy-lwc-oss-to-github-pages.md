@@ -11,6 +11,8 @@ beforetoc: "Deploy Lightning Web Components Open Source (LWC OSS) to Github Page
 author: kishore
 tags:
 - LWC
+- create-lwc-app
+- my-app
 ---
 
 Hi Guys, I have done a lot of research and came up with an efficient solution for deploying open-source Lightning Web Components to Github Pages or any website/server of your choice. This tutorial directly refers to deploying LWC open source to Github Pages, but deploying to other sources is almost same as this. I suggest you follow this as I have gone through all the trouble and you don't have to go through all that trouble I have gone through. In this tutorial, I will walk you through deploying LWC OSS to Github Pages.
