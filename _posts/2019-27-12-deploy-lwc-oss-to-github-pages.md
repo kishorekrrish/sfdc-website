@@ -21,8 +21,8 @@ Hi Guys, I have done a lot of research and came up with an efficient solution fo
 
 ## Basic Requirements 
 (Make sure you have Node.js and Npm installed in your machine or able to access online.)
-1. Install [Node JS](https://nodejs.org/) in local system or access Node JS online [here](https://repl.it/)
-2. Install [npm](https://nodejs.org/) or [yarn](https://yarnpkg.com/) or access online [here](https://repl.it/)
+1. Install [Node JS](https://nodejs.org/) in local system or access Node JS online [here](https://codesandbox.io/)
+2. Install [npm](https://nodejs.org/) or [yarn](https://yarnpkg.com/) or access online [here](https://codesandbox.io/)
 
 ## Procedure
 - First create a repository named  `my-app`  using  [`npx create-lwc-app my-app`](https://lwc.dev/)
