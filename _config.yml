@@ -1,7 +1,7 @@
 # Site
 name: "Salesforce Lwc"
 title: "Salesforce Lwc"
-description: "Salesforce LWC is where you can learn Salesforce Lightning both Salesforce Aura, lWC OSS and Lightning web components including Apex, SOQL and flows with tutorials all in a blog. LWC open source Javascript framework and more.
+description: "Salesforce LWC is where you can learn Salesforce Lightning both Salesforce Aura, lWC OSS and Lightning web components including Apex, SOQL and flows with tutorials all in a blog. LWC open source Javascript framework and more."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
