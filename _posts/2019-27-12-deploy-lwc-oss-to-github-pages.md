@@ -26,7 +26,7 @@ Hi Guys, I have done a lot of research and came up with an efficient solution fo
 
 ## Procedure
 1. First create a repository named  `my-app`  using  [`npx create-lwc-app my-app`](https://lwc.dev/)
-2.  We need to install the [GitHub Pages](https://www.npmjs.com/package/gh-pages)  package as a dev-dependency.
+2. We need to install the [GitHub Pages](https://www.npmjs.com/package/gh-pages)  package as a dev-dependency.
 
 ```
 create package.json
@@ -58,7 +58,7 @@ create package.json
 `cd my-app`  
 `npm install gh-pages --save-dev`
 
-3.  Add properties to  `package.json`  file.
+3. Add properties to  `package.json`  file.
 The first property we need to add at the top level  `homepage`  second we will define this as a string and the value will be  `"http://{username}.github.io/{repo-name}"`  {username} is your GitHub username, and {repo-name} is the name of the GitHub repository you created it will look like this :
 
 `"homepage": "http://kishorebandanadam.github.io/my-app"`
@@ -169,6 +169,7 @@ In the created build open index.html and remove '/' from `src` in script tags
 Open the `src` folder and remove `/` before `resources` everywhere it's referenced as shown below.
 
 Before: `<img  src="/resources/lwc.png" />`
+
 After: `<img  src="resources/lwc.png" />`
 
 this has to be done before creating the build, after creating the build there is one more thing you have to do. Open the build which is created in the `dist` folder and open `index.html` and remove `/` in the script tags as shown below.
@@ -181,6 +182,8 @@ This has to be done with all script tags.
 That's it. Now click on the published link and experience LWC OSS App LIVE.
 
 ![LWC OSS Live App]({{ site.url }}/assets/images/lwc-oss/lwc-oss-live-app.png)
+
+Find Live App Here: [LIVE APP](http://app.salesforcelwc.in/)
 
 Credits to [Ibrahim Ragab](https://dev.to/yuribenjamin) for demonstrating how to deploy React App to Github Pages.
 
