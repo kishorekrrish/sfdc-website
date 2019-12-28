@@ -25,8 +25,8 @@ Hi Guys, I have done a lot of research and came up with an efficient solution fo
 2. Install [npm](https://nodejs.org/) or [yarn](https://yarnpkg.com/) or access online [here](https://repl.it/)
 
 ## Procedure
-1. First create a repository named  `my-app`  using  [`npx create-lwc-app my-app`](https://lwc.dev/)
-2. We need to install the [GitHub Pages](https://www.npmjs.com/package/gh-pages)  package as a dev-dependency.
+- First create a repository named  `my-app`  using  [`npx create-lwc-app my-app`](https://lwc.dev/)
+- We need to install the [GitHub Pages](https://www.npmjs.com/package/gh-pages)  package as a dev-dependency.
 
 ```
 create package.json
@@ -58,7 +58,7 @@ create package.json
 `cd my-app`  
 `npm install gh-pages --save-dev`
 
-3. Add properties to  `package.json`  file.
+- Add properties to  `package.json`  file.
 The first property we need to add at the top level  `homepage`  second we will define this as a string and the value will be  `"http://{username}.github.io/{repo-name}"`  {username} is your GitHub username, and {repo-name} is the name of the GitHub repository you created it will look like this :
 
 `"homepage": "http://kishorebandanadam.github.io/my-app"`
@@ -147,14 +147,14 @@ Second in the existing  `scripts`  property we to need to add  `predeploy`  and 
 
 here `dist` is the build that gets created. 
 
-4. Create a Github repository and initialize it and add it as a remote in your local git repository.
+- Create a Github repository and initialize it and add it as a remote in your local git repository.
 
 Now, create a remote GitHub repository with your app name and go back initialize this  
 `git init`  
 add it as remote  
 `git remote add origin git@github.com:kishorebandanadam/my-app.git`
 
-5. Now deploy it to GitHub Pages.
+- Now deploy it to GitHub Pages.
 
 just run the following command :
 `npm run deploy`
