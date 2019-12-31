@@ -4,14 +4,14 @@ title: Conditional Rendering and Iteration in Salesforce Lightning Web Component
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/05/conditional-rendering-and-iteration-lwc.html
-description: To render a DOM element in a template only when certain conditions are met, we use conditional rendering. In Lightning Web Components we use if:true,if:false.
+description: To render a DOM element in a template only when certain conditions are met, we use conditional rendering in Salesforce lightning. In Lightning Web Components we use if:true,if:false.
 image: assets/images/render-lists-conditionally.png
 author: kishore
 tags:
 - Lightning
 ---
 
-To render a DOM element in a template only when certain conditions are met, we use conditional rendering. To achieve this in Lightning Web Components we need to use `if:true / if:false` in the nested `<template>` tag that encloses the element.
+To render a DOM element in a template only when certain conditions are met, we use conditional rendering. To achieve this in Salesforce Lightning Web Components we need to use `if:true / if:false` in the nested `<template>` tag that encloses the element.
 
 ## Render elements only when condition evaluates to true (POSITIVE SCENARIO)
 The <div> element and its contents are only created and rendered if the value of the `if:true` expression evaluates to true. If the value of the `if:true` expression changes and evaluates to false, all the components inside the `<template if:true= {}>` tag are destroyed. The components are created again if the `if:true` expression changes again and evaluates to true.

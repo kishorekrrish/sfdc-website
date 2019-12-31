@@ -20,7 +20,7 @@ authors:
     email: salesforcelwc@gmail.com
     web: https://www.salesforcelwc.in
     twitter: https://twitter.com/KishoreSfdc
-    description: "I am a Salesforce developer and a so-called blogger at SalesforceLwc.in. I love learning and sharing. SalesforceLWC aims to share relevant knowledge, examples and scenarios for understanding Salesforce Lightning Web Components and AURA."
+    description: "I am a Salesforce developer and a so-called blogger at SalesforceLwc.in. I love learning and sharing."
 
 # Plugins
 plugins:
@@ -58,6 +58,6 @@ adsense-data-ad-client: "ca-pub-6753262254014660"
 adsense-data-ad-slot: "8811166651"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]

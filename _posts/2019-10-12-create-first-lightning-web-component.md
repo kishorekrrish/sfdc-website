@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Create Lightning Web Component in 4 easy steps
+title: Create Lightning Web Component in Salesforce with 4 easy steps
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/05/create-your-first-lightning-web.html
-description: To create your first Lightning Web Component, In VS Code, press Ctrl + Shift + P in windows or Cmd + Shift + P in mac which opens command palette. Type this command sfdx Create Lightning Web Component and press enter.
+description: To create your first Lightning Web Component in Salesforce Lightning. In VS Code, press Ctrl + Shift + P in windows or Cmd + Shift + P in mac which opens command palette. Type sfdx Create Lightning Web Component.
 image: assets/images/first-lwc.png
 toc: true
 author: kishore
@@ -12,7 +12,7 @@ tags:
 - Lightning
 ---
 ## In Short
-Lightning Web Components is a new programming model for building Lightning components in Salesforce. It leverages the web standards, it can co-exist and inter-operate with Aura programming model.
+Lightning Web Components is a new programming model for building Lightning components in Salesforce Lightning. It leverages the web standards, it can co-exist and inter-operate with Aura programming model. IN this tutorial let us learn how to create LWC component.
 
 Now as you have set up your development environment for building Lightning Web Components, lets get started and build a basic web component.
 
