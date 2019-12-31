@@ -21,7 +21,6 @@ Hi Guys, I have done a lot of research and came up with an efficient solution fo
 <script src="https://server.makestories.io/embedStory?storyId=-LxCK5-CmREi5oPhCJD9"></script>
 </div>
 
-<iframe src="https://server.makestories.io/embedStory?storyId=-LxCK5-CmREi5oPhCJD9" style="border:0px #ffffff none;" name="myiFrame" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="400px" width="600px" allowfullscreen></iframe>
 
 ## Prerequisites
 -   [GitHub](https://github.com/join)  Account.
