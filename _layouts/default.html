@@ -160,8 +160,36 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
+<style>
+    /* Added by Kishore */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .grid-item {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .mkst__social_proof_embed {
+        left: unset;
+        right: 5px;
+        bottom: 70px;
+    }
+</style>
 <div class="mainheading">
-    <h2 class="sitetitle">{{ site.name }}</h2>
+<div class="grid-container">
+    <div class="grid-item">
+        <h2 class="sitetitle">{{ site.name }}</h2>
+    </div>
+    <div class="grid-item">
+Test
+    </div>
+</div>
+
+    
     <!--p class="lead">
         {{ site.description }}
     </p-->
