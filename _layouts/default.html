@@ -162,61 +162,21 @@ ga('send', 'pageview');
 ================================================== -->
 <style>
     /* Added by Kishore */
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    
-    *:before, *:after {
-      box-sizing: border-box;
-    }
-    
-    img {
-        max-width: 100%;
-        display: block;
-    }
-    
-    .grid {
-      margin: 2rem auto;
-    }
-    
-    .grid__container {
+    .grid-container {
         display: grid;
-        background-color: #fff;
-        border: 1px solid #000;
-        grid-gap: 1px;
-        justify-self: center; 
-        max-width: 292px;
-        height: auto;
-        margin: 0 auto;
+        grid-template-columns: auto auto auto auto;
     }
-    
-    .grid__item {
-      position: relative;
+
+    .grid-item {
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
     }
-    
-    .grid__img {
-      position: relative;
-      pointer-events: none;
-      border: 10px solid #fff;
-    }
-    
-    @media only screen and (min-width: 768px) {
-        .grid__container {
-            grid-template-columns: repeat(2, 1fr);
-            grid-template-rows: repeat(4, 1fr);
-            max-width: 583px;
-        }
-    }
-    
-    @media only screen and (min-width: 1024px) {
-        
-        .grid__container {
-            grid-template-columns: repeat(4, 1fr);
-            grid-template-rows: repeat(2, 1fr);
-            max-width: 1165px;
-        }
+
+    .mkst__social_proof_embed {
+        left: unset;
+        right: 5px;
+        bottom: 70px;
     }
 
 </style>
@@ -295,22 +255,16 @@ ga('send', 'pageview');
             </div>
         </div>
     </div>
-    <section class="grid">
-        <div class="grid__container">
-            <div class="grid__item">
-                <a target="_blank"
+    
+    <div class="grid-container">
+        <div class="grid-item">
+            <a target="_blank"
                     href="https://crm.consulting/?utm_source=sfblog&utm_medium=badge&utm_campaign=sfblogs1&utm_content=https://www.salesforcelwc.in/"><img
                         style="width:150px" src="https://s3.amazonaws.com/crm.consulting/badges/top-crm-consulting.svg"
                         alt="Best Salesforce consulting companies"></a>
-            </div>
-            <div class="grid__item">
-
-            </div>
-            <div class="grid__item">
-                
-            </div>
         </div>
-    </section>
+    </div>
+    
 </footer>
 <!-- End Footer
 ================================================== -->
