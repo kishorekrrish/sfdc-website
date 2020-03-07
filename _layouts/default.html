@@ -196,42 +196,6 @@ ga('send', 'pageview');
       position: relative;
     }
     
-    .grid__item:hover {
-      background-color: #ff4b4c;
-    }
-    
-    .grid__item:hover::after {
-      content: '+';
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%,-50%);
-      color: white;
-      font-size: 60px;
-      font-weight: bold;
-    }
-    
-    .grid__item:hover .grid__img::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(255, 75, 76, 0.5);
-    }
-    
-    .grid__item:hover .grid__img::after {
-      content: '';
-      display: block;
-      position: absolute;
-      border: 1px solid #ff4b4c;
-      left: -11px;
-      right: -11px;
-      bottom: -11px;
-      top: -11px;
-    }
-    
     .grid__img {
       position: relative;
       pointer-events: none;
