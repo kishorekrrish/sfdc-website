@@ -162,15 +162,97 @@ ga('send', 'pageview');
 ================================================== -->
 <style>
     /* Added by Kishore */
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto;
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
     }
-
-    .grid-item {
-        padding: 0px;
-        margin: 0px;
-        text-align: left;
+    
+    *:before, *:after {
+      box-sizing: border-box;
+    }
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    .grid {
+      margin: 2rem auto;
+    }
+    
+    .grid__container {
+        display: grid;
+        background-color: #000;
+        border: 1px solid #000;
+        grid-gap: 1px;
+        justify-self: center; 
+        max-width: 292px;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .grid__item {
+      position: relative;
+    }
+    
+    .grid__item:hover {
+      background-color: #ff4b4c;
+    }
+    
+    .grid__item:hover::after {
+      content: '+';
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      color: white;
+      font-size: 60px;
+      font-weight: bold;
+    }
+    
+    .grid__item:hover .grid__img::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(255, 75, 76, 0.5);
+    }
+    
+    .grid__item:hover .grid__img::after {
+      content: '';
+      display: block;
+      position: absolute;
+      border: 1px solid #ff4b4c;
+      left: -11px;
+      right: -11px;
+      bottom: -11px;
+      top: -11px;
+    }
+    
+    .grid__img {
+      position: relative;
+      pointer-events: none;
+      border: 10px solid #fff;
+    }
+    
+    @media only screen and (min-width: 768px) {
+        .grid__container {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            max-width: 583px;
+        }
+    }
+    
+    @media only screen and (min-width: 1024px) {
+        
+        .grid__container {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            max-width: 1165px;
+        }
     }
 
 </style>
@@ -249,16 +331,26 @@ ga('send', 'pageview');
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4 col-sm-4 text-center">    
-                <a target="_blank"
-                href="https://crm.consulting/?utm_source=sfblog&utm_medium=badge&utm_campaign=sfblogs1&utm_content=https://www.salesforcelwc.in/"><img
-                    style="width:150px" src="https://s3.amazonaws.com/crm.consulting/badges/top-crm-consulting.svg"
-                    alt="Best Salesforce consulting companies"></a>
-            </div>
+    
+    <section class="grid">
+        <div class="grid__container">
+          <div class="grid__item">
+            <div class="grid__img">
+              <a target="_blank"
+                      href="https://crm.consulting/?utm_source=sfblog&utm_medium=badge&utm_campaign=sfblogs1&utm_content=https://www.salesforcelwc.in/"><img
+                          style="width:150px" src="https://s3.amazonaws.com/crm.consulting/badges/top-crm-consulting.svg"
+                          alt="Best Salesforce consulting companies"></a>
+          </div>
+          <div class="grid__item">
+            <div class="grid__img">
+              <img src="http://placehold.it/270x270" alt="" title="">     </div>
+          </div>
+          <div class="grid__item">
+            <div class="grid__img">
+              <img src="http://placehold.it/270x270" alt="" title="">     </div>
+          </div>
         </div>
-    </div>
+      </section> 
 </footer>
 <!-- End Footer
 ================================================== -->
