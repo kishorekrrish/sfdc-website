@@ -1200,6 +1200,7 @@ Hope this post helped you gain some knowledge, If you like the content please do
 Do subscribe, for getting latest updates directly in your inbox.
 
 **Find Missing Components here:**<br>
+[AttachmentUploader](https://gist.github.com/kishoreBandanadam/3eabb7f949d4af2d2754940a010b8388)<br>
 [LookupEventToParent](https://gist.github.com/kishoreBandanadam/ade21b10a270ef8ead80f9bfdf77c027)<br>
 [DeleteAttachmentsEvent](https://gist.github.com/kishoreBandanadam/e4c072e929540c365e776d7623f2764b)<br>
 [DeleteRowEvent](https://gist.github.com/kishoreBandanadam/dd6d8ec4243d34e1ec7789b5a738e938)<br>
