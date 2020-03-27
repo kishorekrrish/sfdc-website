@@ -1200,8 +1200,8 @@ Hope this post helped you gain some knowledge, If you like the content please do
 Do subscribe, for getting latest updates directly in your inbox.
 
 **Find Missing Components here:**
-[LookupEventToParent](https://gist.github.com/kishoreBandanadam/ade21b10a270ef8ead80f9bfdf77c027)
-[DeleteAttachmentsEvent](https://gist.github.com/kishoreBandanadam/e4c072e929540c365e776d7623f2764b)
-[DeleteRowEvent](https://gist.github.com/kishoreBandanadam/dd6d8ec4243d34e1ec7789b5a738e938)
-[DeleteNotifyComponentEvent](https://gist.github.com/kishoreBandanadam/cfa4a0659eeab3d717e03c4888356233)
+[LookupEventToParent](https://gist.github.com/kishoreBandanadam/ade21b10a270ef8ead80f9bfdf77c027)<br>
+[DeleteAttachmentsEvent](https://gist.github.com/kishoreBandanadam/e4c072e929540c365e776d7623f2764b)<br>
+[DeleteRowEvent](https://gist.github.com/kishoreBandanadam/dd6d8ec4243d34e1ec7789b5a738e938)<br>
+[DeleteNotifyComponentEvent](https://gist.github.com/kishoreBandanadam/cfa4a0659eeab3d717e03c4888356233)<br>
 [UpdateAttachmentsAppEvent](https://gist.github.com/kishoreBandanadam/27337a304f1a5dc7bfa3f1c270c09faf)
