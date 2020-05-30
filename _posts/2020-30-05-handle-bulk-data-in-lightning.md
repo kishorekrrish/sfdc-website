@@ -22,6 +22,8 @@ we can retrieve data using any of the above 3 ways.
 Salesforce says,
 ![Salesforce on @readonly annotation]({{ site.url }}/assets/images/bulkdata/salesforce-about-readonly.png)
 
+![Display Bulk data in Lightning]({{ site.url }}/assets/images/bulkdata/bulkscreen.png)
+
 ### VF remoting with @readonly annotation (nearly 1 million records)
 
 We can query nearly 1 million records (Salesforce says unlimited records) by annotation an apex method with @readyonly. However, there are certain limitations. @readonly annotation in this context can only be called via vf remoting to serve its purpose to perform unrestricted queries. The @RemoteAction annotation provides support for Apex methods used in Visualforce to be called via JavaScript.
