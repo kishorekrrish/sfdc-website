@@ -196,7 +196,7 @@ Now it's up to you how you display the data. Implement pagination for better per
 
 Find full implementation of above mentioned approaches in my Github Repository.
 
-[Github Repository link](https://github.com/kishoreBandanadam/lwc)
+[Github Repository link](https://github.com/kishoreBandanadam/HandleBulkData)
 
 Feel free to express your views in the comment section below. Subscribe to receive code snippets directly in your mail box.
 
