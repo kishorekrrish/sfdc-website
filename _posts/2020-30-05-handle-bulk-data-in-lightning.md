@@ -5,7 +5,7 @@ date: '2022-02-30T22:25:00.000-07:00'
 categories: [ Lightning, Apex, Visualforce ]
 permalink: /handle-bulk-data-lightning.html
 description: Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component
-image: assets/images/lwc-oss/lwc-oss.png
+image: assets/images/bulkdata/bulkdata.png
 toc: true
 beforetoc: "Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component."
 author: kishore
@@ -196,6 +196,7 @@ Now it's up to you how you display the data. Implement pagination for better per
 
 Find full implementation of above mentioned approaches in my Github Repository.
 
+[Github Repository link](https://github.com/kishoreBandanadam/lwc)
 
 Feel free to express your views in the comment section below. Subscribe to receive code snippets directly in your mail box.
 
