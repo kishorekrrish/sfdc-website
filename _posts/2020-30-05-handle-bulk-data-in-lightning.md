@@ -28,7 +28,7 @@ We can query nearly 1 million records (Salesforce says unlimited records) by ann
 
 ![@readyonly annotation for more than 50000 records]({{ site.url }}/assets/images/bulkdata/vf-remoting.png)
 
-#### Limits:
+#### LIMITS
 1. Visualforce Remoting Exception: Remoting response size exceeded maximum of 15 MB. 
 
 ![Visualforce Remoting Exception]({{ site.url }}/assets/images/bulkdata/remoting-size-error.png)
