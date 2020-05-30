@@ -20,14 +20,18 @@ There are 3 ways we can retrieve bulk data in Lightning.
 we can retrieve data using any of the above 3 ways.
 
 Salesforce says,
-Image
+![Salesforce on @readonly annotation]({{ site.url }}/assets/images/bulkdata/salesforce-about-readonly.png)
 
 ### VF remoting with @readonly annotation (nearly 1 million records)
 
 We can query nearly 1 million records (Salesforce says unlimited records) by annotation an apex method with @readyonly. However, there are certain limitations. @readonly annotation in this context can only be called via vf remoting to serve its purpose to perform unrestricted queries. The @RemoteAction annotation provides support for Apex methods used in Visualforce to be called via JavaScript.
 
+![@readyonly annotation for more than 50000 records]({{ site.url }}/assets/images/bulkdata/vf-remoting.png)
+
 #### Limits:
 1. Visualforce Remoting Exception: Remoting response size exceeded maximum of 15 MB. 
+
+![Visualforce Remoting Exception]({{ site.url }}/assets/images/bulkdata/remoting-size-error.png)
 
 This error is not because of apex or SOQL limit, all records are successfully queried and returned, but vf remoting cannot handle data beyond 15 MB and this error is thrown in javaScript. So, to avoid this error fields queried must be limited to 2-3 which doesn't involve text area or any type of field which consumes more storage (ex: text area, rich text, images, etc).
 
@@ -52,7 +56,7 @@ VALUE(Auto number field API name)
 ```
 Wait! what if you already have millions of existing records? That doesn't matter because when we create new Auto number fields we an option to generate auto number for existing records by selecting this checkbox `Generate Auto Number for existing records`
 
-Image
+![Create Auto Number for existing records]({{ site.url }}/assets/images/bulkdata/auto-number.png)
 
 That's it our setup is ready.
 
