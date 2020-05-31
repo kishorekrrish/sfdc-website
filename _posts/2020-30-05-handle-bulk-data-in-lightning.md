@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Handle Bulk data in Lightning Component
-date: '2022-02-30T22:25:00.000-07:00'
+date: '2020-05-30T22:25:00.000-07:00'
 categories: [ Lightning, Apex, Visualforce ]
 permalink: /handle-bulk-data-lightning.html
 description: Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component
