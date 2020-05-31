@@ -24,6 +24,9 @@ Salesforce says,
 
 ![Display Bulk data in Lightning]({{ site.url }}/assets/images/bulkdata/bulkscreen.png)
 
+Video Recording:
+<iframe style="width:100%;" height="315" src="https://youtu.be/1bSf6UdT4R8" frameborder="0" allowfullscreen></iframe>
+
 ### VF remoting with @readonly annotation (nearly 1 million records)
 
 We can query nearly 1 million records (Salesforce says unlimited records) by annotation an apex method with @readyonly. However, there are certain limitations. @readonly annotation in this context can only be called via vf remoting to serve its purpose to perform unrestricted queries. The @RemoteAction annotation provides support for Apex methods used in Visualforce to be called via JavaScript.
@@ -62,7 +65,7 @@ Wait! what if you already have millions of existing records? That doesn't matter
 
 That's it our setup is ready.
 
-
+Sample code:
 ```js
 var records = [];
     function apexCaller(varOffSet, totalRecords) {
@@ -97,7 +100,7 @@ All Lightning developers are very familiar on how to call apex from Lightning co
 
 You need to make sure you never try to retrieve more than 50000 records in single batch chunk. 
 
-Example code:
+Sample code:
 ```js
 auraAction : function(component, helper, offSet, totalRecords) {
         console.log("In auraAction Method");
