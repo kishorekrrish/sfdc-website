@@ -36,7 +36,8 @@ Styling hooks can be used in many ways, have a look at the example below
 ```
 ```css
 lightning-button.button {
-	--sds-c-button-brand-color-background : green;
+	--sds-c-button-brand-color-background: #bb00ff;
+    --sds-c-button-text-color: #f4f7f9;
 }
 ```
 
