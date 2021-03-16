@@ -11,7 +11,7 @@ beforetoc: "Change css for standard base lightning components using styling hook
 author: kishore
 ---
 
-Now we customize CSS for standard lightning base components using styling hooks.
+Now we can customize CSS for standard lightning base components using styling hooks.
 
 # What are Styling Hooks
 Styling hooks use CSS custom properties which make it easy to customize component styling. We can use CSS Custom Properties as hooks to customize the SLDS component with your style.
