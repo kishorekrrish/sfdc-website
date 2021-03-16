@@ -23,7 +23,7 @@ You can find styling hooks for base lightning components on the SLDS website. Fo
 
 # How does a Styling Hook look like
 
-    --sds-c-button-brand-color-background : green;
+    --sds-c-button-brand-color-background : violet;
 
 ![SLDS Styling Hooks]({{ site.url }}/assets/images/styling-hooks/styling-hooks.png)
 
@@ -43,7 +43,7 @@ lightning-button.button {
 
 ![Customised lightning-button]({{ site.url }}/assets/images/styling-hooks/styled-button.png)
 
-In the above example, I aim to change the lightning-button color to green.
+In the above example, I aim to change the lightning-button color to violet.
 
 Learn more about [styling hooks](https://www.lightningdesignsystem.com/platforms/lightning/styling-hooks/){:rel="nofollow"}{:target="_blank"}
 
