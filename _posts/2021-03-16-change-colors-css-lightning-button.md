@@ -49,7 +49,7 @@ Learn more about [styling hooks](https://www.lightningdesignsystem.com/platforms
 
 
 **Reference links**
-[Styling hooks](https://www.lightningdesignsystem.com/platforms/lightning/styling-hooks/){:rel="nofollow"}{:target="_blank"}
-[Lightning Component Library](https://developer.salesforce.com/docs/component-library/bundle/lightning-button/documentation){:rel="nofollow"}{:target="_blank"}
-[SLDS](https://www.lightningdesignsystem.com/components/buttons/#Styling-Hooks-Overview){:rel="nofollow"}{:target="_blank"}
-[LWC Documentation](https://developer.salesforce.com/docs/component-library/documentation/en/50.0/lwc/lwc.create_components_css_custom_properties){:rel="nofollow"}{:target="_blank"}
+- [Styling hooks](https://www.lightningdesignsystem.com/platforms/lightning/styling-hooks/){:rel="nofollow"}{:target="_blank"}
+- [Lightning Component Library](https://developer.salesforce.com/docs/component-library/bundle/lightning-button/documentation){:rel="nofollow"}{:target="_blank"}
+- [SLDS](https://www.lightningdesignsystem.com/components/buttons/#Styling-Hooks-Overview){:rel="nofollow"}{:target="_blank"}
+- [LWC Documentation](https://developer.salesforce.com/docs/component-library/documentation/en/50.0/lwc/lwc.create_components_css_custom_properties){:rel="nofollow"}{:target="_blank"}
