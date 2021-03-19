@@ -33,6 +33,12 @@ title: Home
 {% endif %}
 <!-- End Adsense -->
 
+<!-- Propeller Ads enabled from config.yml -->
+{% if site.propeller == "enabled" %}
+    {% include propeller.html %}
+{% endif %}
+<!-- End Propeller -->
+
 <!-- Posts Index
 ================================================== -->
 <section class="recent-posts">
