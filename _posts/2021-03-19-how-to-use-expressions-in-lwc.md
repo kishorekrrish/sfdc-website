@@ -11,10 +11,6 @@ beforetoc: "Use expressions in lwc html if:true if:false to conditionally render
 author: kishore
 ---
 
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
 Expressions help us to conditionally render/display elements in markup
 
 # Expressions in Aura
@@ -42,22 +38,6 @@ export default class SampleComponent {
 ```
 
 > **`Note:`** In lwc **if:true** and **if:false** looks for boolean value either **true** or **false**
-
-
-## AURA
-```mermaid
-graph LR
-B{HTML}
-B --> C(True)
-B --> D(False)
-```
-## LWC
-```mermaid
-graph LR
-A[JavaScript] --> B{HTML}
-B --> C(True)
-B --> D(False)
-```
 
 **References**
  - [Expressions in lwc](https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.migrate_expressions){:rel="nofollow"}{:target="_blank"}
