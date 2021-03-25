@@ -26,7 +26,7 @@ title: Converter
 
 <form>
     
-    <div class="form-group row">
+    <!-- <div class="form-group row">
 
         <div class="col-md-6">
             <input class="form-control" type="text" name="name" placeholder="15 digit Id" id="fifteen">
@@ -36,9 +36,21 @@ title: Converter
             <input class="form-control" type="email" name="_replyto" placeholder="18 digit Id" id="eighteen">
         </div>
 
+    </div> -->
+
+    <div class="form-group row">
+
+        <div class="col-md-6">
+            <textarea rows="4" class="form-control mb-3" name="message" placeholder="Message" id="fifteen"></textarea>
+        </div>
+
+        <div class="col-md-6">
+            <textarea rows="4" class="form-control mb-3" name="message" placeholder="Message" id="eighteen"></textarea>
+        </div>
+
     </div>
 
-    <!-- <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea> -->
+    
     
     <input class="btn btn-success" type="button" value="Convert" onclick="convert15to18()">
 
