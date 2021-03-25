@@ -202,8 +202,7 @@ ga('send', 'pageview');
         {{ site.description }}
     </p-->   
     <!-- Convert Id Button -->
-    {% if page.url != '/convert' %}
-        {{ page.url}}
+    {% if page.url !== '/convert/' %}
         <a href="{{ site.baseurl }}/convert">
             <input class="btn btn-success" style="width: 100%;" type="button" value="Convert 15 to 18 Digit Salesforce Id">  
         </a>     
