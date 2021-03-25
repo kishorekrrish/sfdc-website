@@ -190,18 +190,21 @@ ga('send', 'pageview');
         z-index: 9999;
         cursor: pointer;
     }
+</style>
 
-    .float-button:hover {
+<!-- .float-button:hover {
         right: -7px;
     }
-
-</style>
+ -->
 
 <div class="mainheading">
     <h2 class="sitetitle">{{ site.name }}</h2>
     <!--p class="lead">
         {{ site.description }}
-    </p-->          
+    </p-->   
+    <a href="{{ site.baseurl }}/convert">
+        <input class="btn btn-success" style="width: 100%;" type="button" value="Convert 15 to 18 Digit Salesforce Id">  
+    </a>     
 </div>
 
 <!-- Content
@@ -230,10 +233,12 @@ ga('send', 'pageview');
     
 </div>
 
-<!-- Floater buton 
+<!-- Floater button 
 ======================================================= -->
-<div class=”float-button”>
-    <button>Converter</button>
+<div class="float-button">
+    <a href="{{ site.baseurl }}/convert">
+        <button>Converter</button>
+    </a>
 </div>
 
 <!-- Categories Jumbotron
