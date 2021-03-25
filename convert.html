@@ -25,7 +25,7 @@ title: 15 to 18 Digit Salesforce Id Converter
     }
 
     function validate() {
-        var val = document.getElementById('textarea').value;
+        let val = document.querySelector('#fifteen').value;
     
         if (!/^([a-zA-Z0-9]{15})$/g.test(val)) {
             alert('Please enter 15 digit Salesforce Id');
