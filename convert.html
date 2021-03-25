@@ -1,0 +1,47 @@
+---
+layout: page
+title: Converter
+---
+
+<script>
+    function convert15to18() {
+        let value = document.querySelector('#fifteen').value;
+        console.log(value);
+        let segments = value.match(/(.{5})(.{5})(.{5})/);
+        let base36 = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'.split('');
+        let output = [];
+        let outer, inner, subSegments, buffer;
+    
+        for(outer = 1; outer <= 3; outer++) {
+            subSegments = segments[outer].split('');
+            buffer = 0;
+            for(inner = 4; inner >= 0; inner--) {
+                buffer = (buffer << 1) | (subSegments[inner].match(/[A-Z]/) ? 1 : 0);
+            }
+            output.push(base36[buffer]);
+        }
+        document.querySelector('#eighteen').value = value+output.join('');
+    }
+</script>
+
+<form>
+    
+    <div class="form-group row">
+
+        <div class="col-md-6">
+            <input class="form-control" type="text" name="name" placeholder="Name" id="fifteen">
+        </div>
+
+        <div class="col-md-6">
+            <input class="form-control" type="email" name="_replyto" placeholder="E-mail Address" id="eighteen">
+        </div>
+
+    </div>
+
+    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+    
+    <input class="btn btn-success" type="button" value="Convert" onclick="convert15to18()">
+
+</form>
+<br>
+<img src="/assets/images/contact.png" alt="Contact us" />
