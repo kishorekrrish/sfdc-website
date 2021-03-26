@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+<url>
+  <loc>https://www.salesforcelwc.in/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/index.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/categories</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/about</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/contact/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/be-a-contributor</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/convert/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/Bluehost-best-webhost/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/10/lookup-in-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/use-expression-in-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/change-css-lightning-button.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/handle-bulk-data-lightning.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/deploy-lwc-oss-to-github-pages.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/use-lwc-in-flows.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/update-view-records-using-flows-salesforce.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/page2/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/page3/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/page4/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/page5/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/page6/</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/create-your-first-lightning-web.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/publishsubscribe-pattern-in-lightning.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/print-record-details.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/picklist-and-dependent-picklist-in.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/local-development-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/how-to-integrate-salesforce-with-zomato.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/get-started-with-salesforce-lightning.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/06/get-data-in-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/events-in-lightning-web-components.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/blog-post.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/data-binding-in-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/10/css-in-lightning.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/how-to-create-record-in-lightning-web.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/conditional-rendering-and-iteration-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/blockers-in-lwc.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/blockers-in-lwc-list.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/create-custom-component-to-send-email.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/editable-list-with-files-and-notify.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/dynamically-adddelete-rows-in.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/05/custom-lookup-component-in-salesforce.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/custom-files-uploader-for-lightning.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/04/how-to-parse-json-response-in-apex.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/workflow-rules-in-salesforce.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/2019/09/why-developer-own-blog.html</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/tags</loc>
+  <lastmod>2021-03-26T06:08:21+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.salesforcelwc.in/assets/files/Workflow_Rules_In_Salesforce.pdf</loc>
+  <lastmod>2021-03-26T06:08:14+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
