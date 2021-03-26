@@ -9,7 +9,6 @@ image: assets/images/custom-lookup.png
 author: kishore
 featured: true
 hidden: true
-rating: 4.5
 tags:
 - Lightning
 ---
