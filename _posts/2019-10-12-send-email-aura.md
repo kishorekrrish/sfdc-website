@@ -7,6 +7,7 @@ permalink: /2019/04/create-custom-component-to-send-email.html
 description: In this post we are going to see a custom component which can send emails with attachments. We will use Apex SingleEmailMessage. When we pass a list of contact or user record Id's, it automatically fetches emails for those record, making our life easy.
 image: assets/images/send-email/send-email.png
 toc: true
+featured: true
 author: kishore
 tags:
 - Lightning

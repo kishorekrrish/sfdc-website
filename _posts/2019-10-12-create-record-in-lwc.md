@@ -7,6 +7,7 @@ permalink: /2019/04/how-to-create-record-in-lightning-web.html
 description: Create a record in Salesforce Lightning using Lightning Web Components aka LWC and Apex.
 image: assets/images/create-rec-lwc/create-rec-lwc.png
 toc: true
+featured: true
 author: kishore
 tags:
 - Lightning
