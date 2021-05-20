@@ -673,6 +673,6 @@ In this component, we are using a custom Stencil component to make our component
 
 Hope you enjoyed reading this article. You can ask your queries in the comments section below. I would be happy to answer. Please let me know if you find any mistakes.
 
-Check this link for [Salesforce Developer Jobs](https://jooble.org/jobs-salesforce-developer){:rel="nofollow"}{:target="_blank"}
+Check this link for [Salesforce Developer Jobs](https://jooble.org/jobs-salesforce-developer){:target="_blank"}
 
 <span style="font-size: x-small;">Icons made by&nbsp;</span><a href="https://www.flaticon.com/%3C?=_(%27authors/%27)?%3Eitim2101" style="font-size: x-small;" title="itim2101">itim2101</a><span style="font-size: x-small;">&nbsp;from&nbsp;</span><a href="https://www.flaticon.com/" style="font-size: x-small;" title="Flaticon">www.flaticon.com</a>
