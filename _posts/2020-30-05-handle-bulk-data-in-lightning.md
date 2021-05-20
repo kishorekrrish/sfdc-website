@@ -9,6 +9,7 @@ image: assets/images/bulkdata/bulkdata.png
 toc: true
 beforetoc: "Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component."
 author: kishore
+featured: true
 ---
 
 ## Retrieve Data
