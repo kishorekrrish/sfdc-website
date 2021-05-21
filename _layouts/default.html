@@ -45,6 +45,12 @@
      {% include autoads.html %}
 {% endif %}
 
+<!-- Media.net Head -->
+{% if site.medianet == "enabled" %}
+    {% include media_net_head.html %}
+{% endif %}
+<!-- End Media.net -->
+
 </head>
 
 {% if jekyll.environment == 'production' %}
