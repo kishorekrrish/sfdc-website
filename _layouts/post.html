@@ -73,12 +73,6 @@ post_class: post-template
             {% endif %}
             <!-- End Adsense -->
 
-            <!-- Media.net Body -->
-            {% if site.medianet == "enabled" %}
-                {% include media_net_Rectangle_300x250_Ad_body.html %}
-            {% endif %}
-            <!-- End Media.net -->
-
             <!-- Post Featured Image -->
             {% if page.image %}
 
@@ -91,6 +85,12 @@ post_class: post-template
             {% endif %}
             <!-- End Featured Image -->
 
+            <!-- Media.net Body -->
+            {% if site.medianet == "enabled" %}
+                {% include media_net_Rectangle_300x250_Ad_body.html %}
+            {% endif %}
+            <!-- End Media.net -->
+            
             <!-- Post Content -->
             <div class="article-post">
                 <!-- Toc if any -->
