@@ -679,6 +679,6 @@ Check this link for [Salesforce Developer Jobs](https://jooble.org/jobs-salesfor
 
 <div>
     <!-- Propeller Ads enabled from config.yml -->
-        {% include propeller.html %}
+        <!--{% include propeller.html %}-->
     <!-- End Propeller -->
 </div>
