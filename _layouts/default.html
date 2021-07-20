@@ -216,6 +216,15 @@
                         cursor: pointer;
                     }
 
+                    .float-coffee-button {
+                        position: fixed;
+                        right: 2px;
+                        top: 270px;
+                        transition: all 0.2s ease-in 0s;
+                        z-index: 9999;
+                        cursor: pointer;
+                    }
+
                     .float-button:hover {
                         right: -7px;
                     }
@@ -286,11 +295,13 @@
 
             <!-- Floater button 
 ======================================================= -->
-            <div class="float-button">
-                <!-- <a href="{{ site.baseurl }}/convert">
+            <!-- <div class="float-button">
+                <a href="{{ site.baseurl }}/convert">
 					<button>&lt; Open Salesforce ID Converter Tool</button>
 				</a> -->
-                <!-- Buy me a coffee button -->
+            <!-- Buy me a coffee button
+            </div> -->
+            <div class="float-coffee-button">
                 <div>{% include BuyMeACoffee.html %}</div>
             </div>
 
