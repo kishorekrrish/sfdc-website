@@ -225,13 +225,25 @@
                         cursor: pointer;
                     }
 
+                    .float-coffee-button-mobile {
+                        display: none;
+                    }
+
                     .float-button:hover {
                         right: -7px;
                     }
 
                     @media only screen and (max-width: 768px) {
-                        .float-button {
+                        .float-coffee-button {
                             display: none;
+                        }
+                        .float-coffee-button-mobile {
+                            position: fixed;
+                            right: 2px;
+                            bottom: 70px;
+                            transition: all 0.2s ease-in 0s;
+                            z-index: 9999;
+                            cursor: pointer;
                         }
                     }
                 </style>
@@ -303,6 +315,10 @@
             </div> -->
             <div class="float-coffee-button">
                 <div>{% include BuyMeACoffee.html %}</div>
+            </div>
+
+            <div class="float-coffee-button-mobile">
+                <div>{% include BuyMeACoffeeMobile.html %}</div>
             </div>
 
             <!-- Categories Jumbotron
