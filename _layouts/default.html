@@ -237,12 +237,11 @@
                         .float-coffee-button {
                             display: none;
                         }
-                        .float-coffee-button-mobile {
-                            right: 2px;
-                            bottom: 70px;
-                            transition: all 0.2s ease-in 0s;
+                        .coffee-button-mobile {
                             z-index: 9999;
+                            text-align: center;
                             cursor: pointer;
+                            display: block;
                         }
                     }
                 </style>
@@ -263,6 +262,11 @@
                         />
                     </a>
                     {% endif %}
+                </div>
+
+                <br />
+                <div class="coffee-button-mobile">
+                    <div>{% include BuyMeACoffeeMobile.html %}</div>
                 </div>
 
                 <!-- Content
@@ -316,7 +320,7 @@
                 <div>{% include BuyMeACoffee.html %}</div>
             </div>
 
-            <div class="float-coffee-button-mobile">
+            <div class="coffee-button-mobile">
                 <div>{% include BuyMeACoffeeMobile.html %}</div>
             </div>
 
