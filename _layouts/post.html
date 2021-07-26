@@ -68,7 +68,7 @@ post_class: post-template
             <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
             {% if site.adsense == "enabled" %}
                 {% if page.url != "/" %}
-                    {% include adsense-under-header.html %}
+                    {% include adsense-above-featured-image.html %}
                 {% endif %}
             {% endif %}
             <!-- End Adsense -->
@@ -155,7 +155,7 @@ post_class: post-template
                     <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
                     {% if site.adsense == "enabled" %}
                     {% if page.url != "/" %}
-                    {% include adsense-under-header.html %}
+                    {% include adsense-inpost-center.html %}
                     {% endif %}
                     {% endif %}
                     <!-- End Adsense -->
@@ -177,7 +177,7 @@ post_class: post-template
                     <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
                     {% if site.adsense == "enabled" %}
                     {% if page.url != "/" %}
-                    {% include adsense-under-header.html %}
+                    {% include adsense-below-navigation.html %}
                     {% endif %}
                     {% endif %}
                     <!-- End Adsense -->

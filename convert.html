@@ -50,13 +50,6 @@ tags:
     {% endif %}
     <!-- End Adsense -->
 </div>
-<!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-{% if site.adsense == "enabled" %}
-    {% if page.url != "/" %}
-        {% include adsense-under-header.html %}
-    {% endif %}
-{% endif %}
-<!-- End Adsense -->
 
 <div>
     <!-- Propeller Ads enabled from config.yml -->
@@ -82,16 +75,6 @@ tags:
     <input class="btn btn-success" style="width: 100%;" type="button" value="Convert" onclick="convert15to18()">
 
 </form>
-
-<div style="margin-top: 5px;">
-    <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-    {% if site.adsense == "enabled" %}
-        {% if page.url != "/" %}
-            {% include adsense-under-header.html %}
-        {% endif %}
-    {% endif %}
-    <!-- End Adsense -->
-</div>
 
 <div style="margin-top: 50px;">
     Steps on how to convert 15 digit case-sensitive Salesforce Id to 18 digit case-safe Id

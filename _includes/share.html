@@ -47,11 +47,19 @@
 
     <!--Ads-->
     <!-- Adsense if enabled from _config.yml (change your pub id and slot) -->
-    <div>
+    <!-- <div>
         {% if site.adsense == "enabled" %}
             {% include adsense-under-header.html %}
         {% endif %}
+    </div> -->
+
+    <div>
+        {% if site.adsense == "enabled" %}
+            {% include adsense-left-side-bar.html %}
+        {% endif %}
     </div>
+
+    
     <!-- End Adsense -->
     <!-- media.net referral-->
         <a href='https://bit.ly/2RtQGtc'><img src='https://ta.media.net/banner_image.php?id=19_300x250_91.jpg'/></a>
