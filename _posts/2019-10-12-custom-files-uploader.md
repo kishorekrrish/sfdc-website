@@ -4,7 +4,7 @@ title: Custom Files Uploader for Salesforce Lightning Components
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning, Apex ]
 permalink: /2019/04/custom-files-uploader-for-lightning.html
-description: Files Uploader is a base component provided by salesforce, using this let's build a Custom Files Uploader lightning component which can be re-used in any component with ease.
+no_description: Files Uploader is a base component provided by salesforce, using this let's build a Custom Files Uploader lightning component which can be re-used in any component with ease.
 image: assets/images/files-uploader.png
 toc: true
 author: kishore

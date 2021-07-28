@@ -4,7 +4,7 @@ title: Salesforce Lightning Web components | Editable List
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Apex ]
 permalink: /2019/04/blog-post.html
-description: Lightning web components are custom HTML elements built using HTML and modern JavaScript. We are going to see how a editable can be built using lightning web components.
+no_description: Lightning web components are custom HTML elements built using HTML and modern JavaScript. We are going to see how a editable can be built using lightning web components.
 image: assets/images/lwc-list.png
 toc: true
 author: kishore

@@ -4,7 +4,7 @@ title: How to use expressions in lwc if:true if:false
 date: '2021-03-19T22:07:00.000+05:30'
 categories: [ LWC, Lightning Web Components ]
 permalink: /use-expression-in-lwc.html
-description: Use expressions in lwc html if:true if:false to conditionally render elements
+no_description: Use expressions in lwc html if:true if:false to conditionally render elements
 image: assets/images/expressions/expression-header.png
 toc: false
 beforetoc: "Use expressions in lwc html if:true if:false to conditionally render elements"

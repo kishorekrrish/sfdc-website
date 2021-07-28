@@ -4,7 +4,7 @@ title: Build Lightning Web Components Faster with Local Development🔥🔥
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/09/local-development-lwc.html
-description: From now we can not only develop the code but also see the changes live as we code natively in the local server and experience the changes without even pushing the code to Salesforce.
+no_description: From now we can not only develop the code but also see the changes live as we code natively in the local server and experience the changes without even pushing the code to Salesforce.
 image: assets/images/lightning-out/local-dev.png
 author: kishore
 toc: true

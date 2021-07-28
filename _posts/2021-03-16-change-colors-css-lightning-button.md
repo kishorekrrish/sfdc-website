@@ -4,7 +4,7 @@ title: Change colors for lightning-button with css styling hooks
 date: '2021-03-16T17:25:00.000+05:30'
 categories: [ LWC, Lightning Web Components ]
 permalink: /change-css-lightning-button.html
-description: Change css for standard base lightning components using styling hooks
+no_description: Change css for standard base lightning components using styling hooks
 image: assets/images/styling-hooks/header.png
 toc: false
 beforetoc: "Change css for standard base lightning components using styling hooks"

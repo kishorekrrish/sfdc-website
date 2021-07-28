@@ -4,7 +4,7 @@ title: Get Server Data using Lightning Web Components
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/06/get-data-in-lwc.html
-description: Server data can be fetched from Salesforce using 3 ways. Lightning Data Service, Wire Service and Simple Apex.
+no_description: Server data can be fetched from Salesforce using 3 ways. Lightning Data Service, Wire Service and Simple Apex.
 image: assets/images/server-data/get-server-data.png
 author: kishore
 tags:

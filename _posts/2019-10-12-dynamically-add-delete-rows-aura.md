@@ -4,7 +4,7 @@ title: Dynamically Add/Delete Rows in Salesforce Lightning
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning, Apex ]
 permalink: /2019/05/dynamically-adddelete-rows-in.html
-description: Create a salesforce lightning component which can add and delete rows dynamically. You can build this component in less than 5 minutes using simple Html and js.
+no_description: Create a salesforce lightning component which can add and delete rows dynamically. You can build this component in less than 5 minutes using simple Html and js.
 image: assets/images/add-delete/add-remove-header.png
 toc: true
 featured: true

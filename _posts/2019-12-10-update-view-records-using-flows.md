@@ -4,7 +4,7 @@ title: Update Record using Flow Builder in Salesforce
 date: '2019-12-10T22:25:00.000-07:00'
 categories: [ Automation, Salesforce Automation ]
 permalink: /update-view-records-using-flows-salesforce.html
-description: Use Flow Builder to create-update records in Salesforce without code and just clicks. Mastering flows can reduce the usage of code by 70-80%.
+no_description: Use Flow Builder to create-update records in Salesforce without code and just clicks. Mastering flows can reduce the usage of code by 70-80%.
 image: assets/images/flows/update-flow.png
 toc: true
 beforetoc: "To create or update records in Salesforce you no longer need to write a Lightning component, you can make use of Lightning Flow Builder where you can create any requirement just by clicks. Mastering flows can reduce the usage of code by 70-80%, and you don't have to write any test classes for what you build. Flows come with a component visibility option with which you can show/hide flow components conditionally."

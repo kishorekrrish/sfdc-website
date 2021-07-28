@@ -4,7 +4,7 @@ title: How to Print Record Details in Lightning Experience
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components ]
 permalink: /2019/09/print-record-details.html
-description: Let us create a component that could print the record detail page and even its related records using lightning aura in salesforce crm, salesforce training.
+no_description: Let us create a component that could print the record detail page and even its related records using lightning aura in salesforce crm, salesforce training.
 image: assets/images/print/print-lightning.png
 author: kishore
 tags:

@@ -4,7 +4,7 @@ title: How to Parse JSON Response in Apex Salesforce
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Apex ]
 permalink: /2019/04/how-to-parse-json-response-in-apex.html
-description: JSON can be parsed using many out of which simple and easy approach is explained in detail. We can parse any complex JSON just by clicks.
+no_description: JSON can be parsed using many out of which simple and easy approach is explained in detail. We can parse any complex JSON just by clicks.
 image: assets/images/json-apex/json.png
 toc: true
 author: kishore

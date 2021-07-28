@@ -4,7 +4,7 @@ title: Workflow Rules in Salesforce for Automation
 date: '2019-12-08T22:25:00.000-07:00'
 categories: [ Automation, Salesforce Automation ]
 permalink: /workflow-rules-in-salesforce.html
-description: Workflow Rule is the automation tool provided by Salesforce to achieve automation of repetitive manual tasks. Workflows lets you automate standard internal procedures and processes to save time.
+no_description: Workflow Rule is the automation tool provided by Salesforce to achieve automation of repetitive manual tasks. Workflows lets you automate standard internal procedures and processes to save time.
 image: assets/images/workflow/workflow.png
 toc: true
 beforetoc: "To achieve the automation of simple repetitive tasks we use automation tools. Salesforce provides automation tools like Workflows, Process Builder, Approval Process and Lightning Flow Builder."

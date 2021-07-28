@@ -4,7 +4,7 @@ title: How to integrate Salesforce with Zomato using Lightning Web Components
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning Web Components, Apex ]
 permalink: /2019/04/how-to-integrate-salesforce-with-zomato.html
-description: In this post we are going to learn how to you integrate Salesforce with Zomato by Http Callouts in LWC.
+no_description: In this post we are going to learn how to you integrate Salesforce with Zomato by Http Callouts in LWC.
 image: assets/images/integration-zomato/integration-lwc.png
 toc: true
 author: kishore

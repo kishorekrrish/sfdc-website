@@ -5,7 +5,7 @@ date: '2019-10-12T22:25:00.000-07:00'
 last_modified_at:   2021-05-20 12:30:00 +0000
 categories: [ Lightning Web Components, Lightning, Apex ]
 permalink: /2019/10/lookup-in-lwc.html
-description: Featured Custom Look-Up Component using Salesforce Lightning Web Components. Let's create a Custom Lookup component that can be re-used for any object.
+no_description: Featured Custom Look-Up Component using Salesforce Lightning Web Components. Let's create a Custom Lookup component that can be re-used for any object.
 image: assets/images/custom-lookup.png
 author: kishore
 featured: true

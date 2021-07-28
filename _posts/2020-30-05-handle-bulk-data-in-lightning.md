@@ -4,7 +4,7 @@ title: Handle Bulk data in Lightning Component
 date: '2020-05-30T22:25:00.000-07:00'
 categories: [ Lightning, Apex, Visualforce ]
 permalink: /handle-bulk-data-lightning.html
-description: Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component
+no_description: Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component
 image: assets/images/bulkdata/bulkdata.png
 toc: true
 beforetoc: "Handle and display bulk(huge) data in Lightning component. Display more than 50000 records in lightning component."

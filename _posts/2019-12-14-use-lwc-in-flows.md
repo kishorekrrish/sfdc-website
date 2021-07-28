@@ -4,7 +4,7 @@ title: Use Lightning Web Component in Flows
 date: '2019-12-14T22:25:00.000-07:00'
 categories: [ Automation, Salesforce Automation ]
 permalink: /use-lwc-in-flows.html
-description: Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without a single line of code. Use Lightning Web Component to make a better UI experience for users.
+no_description: Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without a single line of code. Use Lightning Web Component to make a better UI experience for users.
 image: assets/images/lwc-flow/lwc-flow.png
 toc: true
 beforetoc: "Lightning Flow Builder is one the awesome automation tool available in Salesforce which gets the work done without single line of code."

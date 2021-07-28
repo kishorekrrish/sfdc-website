@@ -4,7 +4,7 @@ title: How to Deploy LWC OSS to Github Pages or any Website
 date: '2019-12-27T22:25:00.000-07:00'
 categories: [ LWC, Lightning Web Components ]
 permalink: /deploy-lwc-oss-to-github-pages.html
-description: Deploy Lightning Web Components Open Source (LWC OSS) to Github Pages. Step-by-step demonstration to deploy LWC OSS to Github pages with or without npm in Local machine.
+no_description: Deploy Lightning Web Components Open Source (LWC OSS) to Github Pages. Step-by-step demonstration to deploy LWC OSS to Github pages with or without npm in Local machine.
 image: assets/images/lwc-oss/lwc-oss.png
 toc: true
 beforetoc: "Deploy Lightning Web Components Open Source (LWC OSS) to Github Pages. Step-by-step demonstration to deploy LWC OSS to Github pages with or without npm in Local machine."

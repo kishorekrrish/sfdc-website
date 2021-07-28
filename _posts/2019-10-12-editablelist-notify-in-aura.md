@@ -4,7 +4,7 @@ title: Editable List with files and notify option in Salesforce Lightning (Aura)
 date: '2019-10-12T22:25:00.000-07:00'
 categories: [ Lightning, Apex ]
 permalink: /2019/05/editable-list-with-files-and-notify.html
-description: This post gives detailed explanation on how to build a lightning component which can display a list of records and associated files, with an option to edit and notify.
+no_description: This post gives detailed explanation on how to build a lightning component which can display a list of records and associated files, with an option to edit and notify.
 image: assets/images/editable-list/editable-list.png
 toc: true
 author: kishore
