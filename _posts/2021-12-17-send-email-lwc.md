@@ -216,6 +216,8 @@ In Aura we can write expression as seen above, where as in lwc something like th
 </template>
 ```
 
+### emailLwc.js
+
 ```js
 /* eslint-disable no-alert */
 import { LightningElement, track } from "lwc";
@@ -324,6 +326,8 @@ export default class EmailLwc extends LightningElement {
 }
 ```
 
+### emailLwc.css
+
 ```css
 .form {
     background: white;
@@ -334,6 +338,8 @@ export default class EmailLwc extends LightningElement {
     bottom: 52px;
 }
 ```
+
+### emailInput.html
 
 ```html
 <template>
@@ -411,6 +417,8 @@ export default class EmailLwc extends LightningElement {
     </div>
 </template>
 ```
+
+### emailInput.js
 
 ```js
 import { LightningElement, track, api } from "lwc";
@@ -526,6 +534,8 @@ export default class EmailInput extends LightningElement {
 }
 ```
 
+### emailInput.css
+
 ```css
 .input {
     border-top-style: hidden;
@@ -541,6 +551,8 @@ export default class EmailInput extends LightningElement {
     outline-width: 0;
 }
 ```
+
+### EmailClass
 
 ```js
 public with sharing class EmailClass {
