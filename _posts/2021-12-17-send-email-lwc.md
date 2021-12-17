@@ -6,9 +6,10 @@ categories: [ LWC, Lightning Web Components ]
 permalink: /send-email-lwc.html
 no_description: Dynamic component to configure send email
 image: assets/images/email-lwc/emailheader.png
-toc: false
+toc: true
 beforetoc: "featured send email component built with LWC"
 author: kishore
+featured: true
 ---
 
 Customizable email component.
