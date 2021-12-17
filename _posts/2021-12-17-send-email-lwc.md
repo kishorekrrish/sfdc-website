@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Send Email - LWC'
+title: Send Email LWC
 date: '2021-12-17T22:07:00.000+05:30'
 categories: [ LWC, Lightning Web Components ]
 permalink: /send-email-lwc.html
