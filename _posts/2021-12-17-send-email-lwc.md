@@ -29,8 +29,6 @@ Customizable email component.
 ![Search Email]({{ site.url }}/assets/images/email-lwc/search-email.png)
 ![ Upload ]({{ site.url }}/assets/images/email-lwc/upload.png)
 
-In Aura we can write expression as seen above, where as in lwc something like this is not possible to directly write in markup. We need write expressions in JavaScript and use their result in markup.
-
 ## Code
 
 ### emailLwc.html
