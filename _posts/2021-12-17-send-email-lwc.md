@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Send Email - LWC
+title: 'Send Email - LWC'
 date: '2021-12-17T22:07:00.000+05:30'
 categories: [ LWC, Lightning Web Components ]
 permalink: /send-email-lwc.html
@@ -27,7 +27,7 @@ Customizable email component.
 ![Email Lwc]({{ site.url }}/assets/images/emali-lwc/email.png)
 ![Email Address]({{ site.url }}/assets/images/emali-lwc/email-address.png)
 ![Search Email]({{ site.url }}/assets/images/emali-lwc/search-email.png)
-![Upload]({{ site.url }}/assets/images/emali-lwc/upload.png)
+![ Upload ]({{ site.url }}/assets/images/emali-lwc/upload.png)
 
 In Aura we can write expression as seen above, where as in lwc something like this is not possible to directly write in markup. We need write expressions in JavaScript and use their result in markup.
 
@@ -542,7 +542,7 @@ export default class EmailInput extends LightningElement {
 }
 ```
 
-```java
+```js
 public with sharing class EmailClass {
 
     @AuraEnabled
