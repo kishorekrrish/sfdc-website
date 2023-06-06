@@ -5,7 +5,8 @@ no_description: "Salesforce LWC is where you can learn Salesforce Lightning both
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
-google_analytics: 'UA-139422731-1'
+#google_analytics: 'UA-139422731-1'
+google_analytics: 'G-97LNT8350X'
 disqus: 'salesforcelwc'
 mailchimp-list: 'https://salesforcelwc.us20.list-manage.com/subscribe/post?u=310725db7e557758a03138e92&amp;id=108e4f0200'
 include: ["_pages"]
