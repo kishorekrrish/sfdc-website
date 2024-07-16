@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: http://www.salesforcelwc.in/sitemap.xml
-Sitemap: https://www.salesforcelwc.in/sitemap.xml
+Sitemap: http://www.salesforcelwc.com/sitemap.xml
+Sitemap: https://www.salesforcelwc.com/sitemap.xml

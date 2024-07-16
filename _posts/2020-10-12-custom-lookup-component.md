@@ -181,7 +181,7 @@ Creating a record from the lookup component is something that you have seen in s
 </template>
 ```
 <br>
-In the Javascript controller, we are using a lot of standard and custom events. [Learn more about Events in Lightning Web Components](https://www.salesforcelwc.in/2019/05/events-in-lightning-web-components.html)
+In the Javascript controller, we are using a lot of standard and custom events. [Learn more about Events in Lightning Web Components](https://www.salesforcelwc.com/2019/05/events-in-lightning-web-components.html)
 
 **LookUp.js**
 ```js

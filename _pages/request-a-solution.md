@@ -5,7 +5,7 @@ permalink: /be-a-contributor
 ---
 
 
-<form action="https://formspree.io/contact@salesforcelwc.in" method="POST">
+<form action="https://formspree.io/contact@salesforcelwc.com" method="POST">
     
     <div class="form-group row">
 

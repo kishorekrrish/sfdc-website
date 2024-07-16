@@ -4,7 +4,7 @@ title: About Salesforce Lwc
 permalink: /about
 ---
 <div dir="ltr" style="text-align: left;" trbidi="on">
-About <a href="https://www.salesforcelwc.in/" rel="nofollow">SalesforceLWC</a>
+About <a href="https://www.salesforcelwc.com/" rel="nofollow">SalesforceLWC</a>
 
 <div class="separator" style="clear: both; text-align: center;">
 <a href="https://3.bp.blogspot.com/-88PW7AHtVAk/XMScVHbYQ-I/AAAAAAAAALw/q6KBY3mZ5vA4hUOGNODbAzcMX_z4u9BNwCLcBGAs/s1600/roundKishore.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" data-original-height="884" data-original-width="884" height="200" src="https://3.bp.blogspot.com/-88PW7AHtVAk/XMScVHbYQ-I/AAAAAAAAALw/q6KBY3mZ5vA4hUOGNODbAzcMX_z4u9BNwCLcBGAs/s200/roundKishore.png" width="200" /></a></div>
@@ -26,7 +26,7 @@ Salesforce.com, Inc. (usually abbreviated as SF or SFDC for Salesforce dot com) 
 
 <span style="text-align: right;">-Salesforce </span><strike style="text-align: right;">Developer</strike><span style="text-align: right;"> Dreamer</span>
 
-Email me at <span style="color: #0b5394; font-size: large;">contact@salesforcelwc.in</span>
+Email me at <span style="color: #0b5394; font-size: large;">contact@salesforcelwc.com</span>
 <br>
 <!-- Go to www.addthis.com/dashboard to customize your tools -->
 <div class="addthis_tipjar_inline">

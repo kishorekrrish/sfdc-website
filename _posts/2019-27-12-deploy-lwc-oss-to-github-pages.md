@@ -167,7 +167,7 @@ just run the following command :
 `npm run deploy`
 
 this command will create a branch named `gh-pages` which hosts your app.
-Now everything is ready but there are two things you need to check before moving forward, that is whether you are using custom domain or default domain for Github Pages. If you are using custom domain like, [www.salesforcelwc.in](https://www.salesforcelwc.in/) there is nothing you have to do, but if you are using default like, kishorebandanadam.github.io/my-app then there are few tweaks you need to make.
+Now everything is ready but there are two things you need to check before moving forward, that is whether you are using custom domain or default domain for Github Pages. If you are using custom domain like, [www.salesforcelwc.com](https://www.salesforcelwc.com/) there is nothing you have to do, but if you are using default like, kishorebandanadam.github.io/my-app then there are few tweaks you need to make.
 
 ![LWC OSS Github Pages Repository]({{ site.url }}/assets/images/lwc-oss/lwc-oss-github-pages-repo.png)
 
@@ -190,7 +190,7 @@ That's it. Now click on the published link and experience LWC OSS App LIVE.
 
 ![LWC OSS Live App]({{ site.url }}/assets/images/lwc-oss/lwc-oss-live-app.png)
 
-Find Live App Here: [LIVE APP](http://app.salesforcelwc.in/)
+Find Live App Here: [LIVE APP](http://app.salesforcelwc.com/)
 
 Credits to [Ibrahim Ragab](https://dev.to/yuribenjamin) for demonstrating how to deploy React App to Github Pages.
 
